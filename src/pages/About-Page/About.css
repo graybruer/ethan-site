@@ -1,4 +1,8 @@
 .about {
-    background-color: brown;
+    /* background-color: brown; */
     height: 20rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

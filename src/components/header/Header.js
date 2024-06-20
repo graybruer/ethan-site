@@ -9,7 +9,7 @@ const Header = () => {
     let page = 'Splash';
 
     let location = useLocation();
-    console.log(location);
+    // console.log(location);
 
     if (location.pathname === '/') {
         page = 'Splash';
@@ -21,12 +21,17 @@ const Header = () => {
     return (
 
        <header className={`header${page}`}>
-            <Link to='/'><img src={logo} alt="Ethaniel Snow Logo" id='navLogo'></img></Link>
-            <nav>
+            <Link to='/'><img src={logo} alt="Ethaniel Snow Logo" id={`navLogo${page}`}></img></Link>
+            <nav className={`nav${page}`}>
                 <ul>
                     <li className='navButton' id='navGallery'>Gallery</li>
+                    <li className={`navBuffer${page}`}></li>
                     <li className='navButton' id='navAbout'><Link to='/about'>About</Link></li>
+                    <li className={`navBuffer${page}`}></li>
+                    <li className={`navBuffer${page}`}></li>
+                    <li className={`navBuffer${page}`}></li>
                     <li className='navButton' id='navCV'>CV</li>
+                    <li className={`navBuffer${page}`}></li>
                     <li className='navButton' id='navContact'>Contact</li>
                 </ul>
             </nav>
