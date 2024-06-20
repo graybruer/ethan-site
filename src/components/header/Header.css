@@ -1,3 +1,7 @@
+:root {
+    --time1: 2s;
+}
+
 .headerSplash {
     display: flex;
     flex-direction: column;
@@ -6,7 +10,7 @@
     height: 100%;
     /* background-image: linear-gradient(to right, cadetblue 50%, darkseagreen 50%); */
     background-color: cadetblue;
-    transition: all 2s;
+    transition: all var(--time1);
 }
 
 .headerCompact {
@@ -17,7 +21,7 @@
     height: 100%;
     /* background-image: linear-gradient(to right, darkseagreen 50%, cadetblue 50%); */
     background-color: darkseagreen;
-    transition: all 2s;
+    transition: all var(--time1);
 
 }
 
