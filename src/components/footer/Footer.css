@@ -1,7 +1,17 @@
 .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     background-color: #4F90CB;
+    /* background-image: linear-gradient(to top, #4F90CB , #FFFFFF); */
     position: fixed;
     height: 5rem;
     width: 100%;
     bottom: 0;
+    border-top: 2px solid black;
+}
+
+.footerItem {
+    width: 15rem;
+    text-align: center;
 }

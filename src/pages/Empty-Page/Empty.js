@@ -1,6 +1,6 @@
-// import { Route,Routes } from 'react-router-dom';
+import './Empty.css'
 
-const Empty = () => {
+const Empty = (empty) => {
     return (
         <main className="empty">
             {/* filler */}
