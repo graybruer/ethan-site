@@ -1,8 +1,46 @@
 .about {
     /* background-color: brown; */
-    height: 20rem;
+    height: calc(100vh - 5rem);
     width: 100vw;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
+.aboutContent {
+    /* height: 100vh; */
+    margin-top: -5rem;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 17rem 25rem;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    /* background-color: green; */
+    /* outline: 1px solid green; */
+}
+
+.Portrait {
+    /* outline: 1px solid black; */
+    max-width: 17rem;
+}
+
+.circle {
+    position: absolute;
+    aspect-ratio: 1 / 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+/* .BG-image {
+    margin-top: 3rem;
+    width: 100vw;
+    max-height: 10rem;
+    object-fit: cover;
+    object-position: 0% 95%;
+} */

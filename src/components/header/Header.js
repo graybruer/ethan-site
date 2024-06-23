@@ -6,33 +6,33 @@ const Header = () => {
 
 
     // This should probably be useing useState or something but that was causing issues and this seems to work fine
-    let page = 'Splash';
+    let size = 'Splash';
 
     let location = useLocation();
     // console.log(location);
 
     if (location.pathname === '/') {
-        page = 'Splash';
+        size = 'Splash';
     }
     else {
-        page = 'Compact';
+        size = 'Compact';
     }
 
     return (
 
-       <header className={`header${page}`}>
-            <Link to='/'><img src={logo} alt="Ethaniel Snow Logo" id={`navLogo${page}`}></img></Link>
-            <nav className={`nav${page}`}>
+       <header className={`header${size}`}>
+            <Link to='/'><img src={logo} alt="Ethaniel Snow Logo" id={`navLogo${size}`}></img></Link>
+            <nav className={`nav${size}`}>
                 <ul>
                     <li className='navButton' id='navGallery'>Gallery</li>
-                    <li className={`navBuffer${page}`}></li>
+                    <li className={`navBuffer${size}`} ffer></li>
                     <li className='navButton' id='navAbout'><Link to='/about'>About</Link></li>
-                    <li className={`navBuffer${page}`}></li>
-                    <li className={`navBuffer${page}`}></li>
-                    <li className={`navBuffer${page}`}></li>
-                    <li className='navButton' id='navCV'>CV</li>
-                    <li className={`navBuffer${page}`}></li>
-                    <li className='navButton' id='navContact'>Contact</li>
+                    <li className={`navBuffer${size}`}></li>
+                    <li className={`navBuffer${size}`}></li>
+                    <li className={`navBuffer${size}`}></li>
+                    <li className='navButton' id='navCV'><Link to='/cv'>CV</Link></li>
+                    <li className={`navBuffer${size}`}></li>
+                    <li className='navButton' id='navContact'><Link to='/contact'>Contact</Link></li>
                 </ul>
             </nav>
        </header>

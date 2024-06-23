@@ -2,9 +2,9 @@ import './Empty.css'
 
 const Empty = (empty) => {
     return (
-        <main className="empty">
+        <div className="empty">
             {/* filler */}
-        </main>
+        </div>
     );
 };
 

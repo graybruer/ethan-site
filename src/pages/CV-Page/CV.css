@@ -1,0 +1,22 @@
+.CV {
+    /* background-color: brown; */
+    height: calc(100vh - 5rem);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.CVContent {
+    /* height: 100vh; */
+    margin-top: -5rem;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 25rem;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    /* background-color: green; */
+    /* outline: 1px solid green; */
+}
