@@ -1,7 +1,6 @@
 import './About.css'
 import Ethan from '../../assets/Ethan-Placeholder.jpg';
-import { useLocation } from 'react-router-dom';
-import { easeInOut, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 const About = () => {
 

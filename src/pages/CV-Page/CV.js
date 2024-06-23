@@ -1,20 +1,7 @@
 import './CV.css'
-import Ethan from '../../assets/Ethan-Placeholder.jpg';
-import { useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 const CV = () => {
-
-    // let location = "x";
-
-    let leave = "y: '100%'"
-
-    // if (location.pathname === "anything") {
-    //     leave = "y: '-100%'"
-    // }
-    // else {
-    //     leave = "y: '100%'"
-    // }
 
     return (
         //  reference: https://www.framer.com/motion/component/

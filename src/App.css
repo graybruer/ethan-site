@@ -9,4 +9,9 @@
 
 #pageContent {
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100% - 5rem);
+  justify-content: center;
+  /* background-color: darkolivegreen; */
 }

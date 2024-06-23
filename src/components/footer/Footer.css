@@ -6,11 +6,12 @@
 
 .footerBottom {
     display: flex;
+    justify-self: end;
     align-items: center;
     justify-content: space-around;
-    /* background-color: #4F90CB; */
     background-color: #FFFFFF;
-    position: absolute;
+    /* background-color: #4F90CB; */
+    position: sticky;
     /* margin-top: auto; */
     height: 5rem;
     width: 100%;
@@ -25,7 +26,7 @@
     justify-content: space-around;
     background-color: #FFFFFF;
     /* background-color: #4F90CB; */
-    position: absolute;
+    position: fixed;
     /* margin-top: auto; */
     height: calc(100vh - 5rem);
     width: 100%;
