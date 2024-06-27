@@ -24,7 +24,7 @@ const Header = () => {
             <Link to='/'><img src={logo} alt="Ethaniel Snow Logo" id={`navLogo${size}`}></img></Link>
             <nav className={`nav${size}`}>
                 <ul>
-                    <li className='navButton' id='navGallery'>Gallery</li>
+                    <li className='navButton' id='navGallery'><Link to='/gallery'>Gallery</Link></li>
                     <li className={`navBuffer${size}`} ffer></li>
                     <li className='navButton' id='navAbout'><Link to='/about'>About</Link></li>
                     <li className={`navBuffer${size}`}></li>

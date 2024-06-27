@@ -1,0 +1,69 @@
+.Gallery {
+    min-height: calc(100% -5rem);
+    height: 100%;
+    width: 100vw;
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    /* outline: 2px solid steelblue; */
+    /* background-color: steelblue; */
+}
+
+.GalleryContent {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5em;
+    text-align: left;
+    align-items: start;
+    justify-content: center;
+    /* background-color: green; */
+    /* outline: 1px solid green; */
+}
+
+.GalleryContent > div {
+    /* for debugging */
+    /* outline: 5px solid orange; */
+}
+
+.GalleryContent:last-child {
+    margin-bottom: 1.5em;
+}
+
+.projectHeader {
+    grid-column: 1 / span 3;
+    /* outline: 5px solid red; */
+    max-height: 40rem;
+}
+
+.projectHeader > img {
+    max-height: 40rem;
+    width: 100%;
+    grid-column: 1 / span 3;
+    object-fit: cover;
+    object-position: 50% 50%;
+    /* outline: 5px dashed pink; */
+}
+
+.project {
+    grid-column: 1 / span 3;
+    max-height: 15rem;
+    /* outline: 5px solid green; */
+    /* background-color: greenyellow; */
+}
+
+.project > img {
+    height: 100%;
+    max-height: 15rem;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    /* outline: 5px dashed yellow; */
+}
+
+/* p {
+    outline: 1px solid red;
+    margin: 2rem;
+} */

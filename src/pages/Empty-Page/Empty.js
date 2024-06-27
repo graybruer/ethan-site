@@ -2,7 +2,7 @@ import './Empty.css'
 
 const Empty = (empty) => {
     return (
-        <div className="empty">
+        <div id="empty">
             {/* filler */}
         </div>
     );
