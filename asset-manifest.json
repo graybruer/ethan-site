@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ethan-site/static/css/main.c2e0a998.css",
-    "main.js": "/ethan-site/static/js/main.bc299f25.js",
+    "main.js": "/ethan-site/static/js/main.fef7bf87.js",
     "static/js/453.193de534.chunk.js": "/ethan-site/static/js/453.193de534.chunk.js",
     "static/media/project-image-placeholder-6.jpg": "/ethan-site/static/media/project-image-placeholder-6.5b87e8c59a799369c92e.jpg",
     "static/media/project-image-placeholder-head.jpg": "/ethan-site/static/media/project-image-placeholder-head.ae1337c2e4f25652e420.jpg",
@@ -14,11 +14,11 @@
     "static/media/Ethan-Placeholder.jpg": "/ethan-site/static/media/Ethan-Placeholder.bfa427a3b8a5d52a74be.jpg",
     "index.html": "/ethan-site/index.html",
     "main.c2e0a998.css.map": "/ethan-site/static/css/main.c2e0a998.css.map",
-    "main.bc299f25.js.map": "/ethan-site/static/js/main.bc299f25.js.map",
+    "main.fef7bf87.js.map": "/ethan-site/static/js/main.fef7bf87.js.map",
     "453.193de534.chunk.js.map": "/ethan-site/static/js/453.193de534.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2e0a998.css",
-    "static/js/main.bc299f25.js"
+    "static/js/main.fef7bf87.js"
   ]
 }
