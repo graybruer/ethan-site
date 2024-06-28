@@ -13,11 +13,11 @@ const Header = () => {
 
 
     // added the second condition to fix the first load when hosting on github-pages, may remove for final deployment
-    if (location.pathname === '/' || location.pathname === 'ethan-site') {
-        size = 'Splash';
+    if (!(location.pathname === '/' || location.pathname === 'ethan-site')) {
+        size = 'Compact';
     }
     else {
-        size = 'Compact';
+        size = 'Splash';
     }
 
     return (
