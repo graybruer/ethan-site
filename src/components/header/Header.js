@@ -9,7 +9,7 @@ const Header = () => {
     let size = 'Splash';
 
     let location = useLocation();
-    // console.log(location);
+    console.log(location);
 
 
     // added the second condition to fix the first load when hosting on github-pages, may remove for final deployment
