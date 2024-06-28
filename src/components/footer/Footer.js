@@ -9,7 +9,7 @@ const Footer = () => {
     let location = useLocation();
     // console.log(location);
 
-    if (location.pathname === '/contact' || location.pathname === '/') {
+    if (location.pathname === '/contact' || location.pathname === '/' || location.pathname === 'ethan-site') {
         display = 'No';
     }
     else {
