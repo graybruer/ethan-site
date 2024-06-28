@@ -11,7 +11,9 @@ const Header = () => {
     let location = useLocation();
     // console.log(location);
 
-    if (location.pathname === '/') {
+
+    // added the second condition to fix the first load when hosting on github-pages, may remove for final deployment
+    if (location.pathname === '/' || location.pathname === 'ethan-site') {
         size = 'Splash';
     }
     else {
