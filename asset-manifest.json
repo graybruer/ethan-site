@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/ethan-site/static/css/main.c2e0a998.css",
-    "main.js": "/ethan-site/static/js/main.106a1899.js",
-    "static/js/453.193de534.chunk.js": "/ethan-site/static/js/453.193de534.chunk.js",
-    "static/media/project-image-placeholder-6.jpg": "/ethan-site/static/media/project-image-placeholder-6.5b87e8c59a799369c92e.jpg",
-    "static/media/project-image-placeholder-head.jpg": "/ethan-site/static/media/project-image-placeholder-head.ae1337c2e4f25652e420.jpg",
-    "static/media/project-image-placeholder-5.jpg": "/ethan-site/static/media/project-image-placeholder-5.f8776e1d09c392511ea3.jpg",
-    "static/media/Logo.png": "/ethan-site/static/media/Logo.34afaaa87d1557e2953c.png",
-    "static/media/project-image-placeholder-4.webp": "/ethan-site/static/media/project-image-placeholder-4.de45dbdb6315cf5e9fb7.webp",
-    "static/media/project-image-placeholder-3.webp": "/ethan-site/static/media/project-image-placeholder-3.b34afe30230f89a7a4a0.webp",
-    "static/media/project-image-placeholder-1.jpg": "/ethan-site/static/media/project-image-placeholder-1.36467645238e059798ed.jpg",
-    "static/media/project-image-placeholder-2.jpeg": "/ethan-site/static/media/project-image-placeholder-2.43e39bc15a61ddb3dc43.jpeg",
-    "static/media/Ethan-Placeholder.jpg": "/ethan-site/static/media/Ethan-Placeholder.bfa427a3b8a5d52a74be.jpg",
-    "index.html": "/ethan-site/index.html",
-    "main.c2e0a998.css.map": "/ethan-site/static/css/main.c2e0a998.css.map",
-    "main.106a1899.js.map": "/ethan-site/static/js/main.106a1899.js.map",
-    "453.193de534.chunk.js.map": "/ethan-site/static/js/453.193de534.chunk.js.map"
+    "main.css": "/static/css/main.c2e0a998.css",
+    "main.js": "/static/js/main.f4c1114b.js",
+    "static/js/453.193de534.chunk.js": "/static/js/453.193de534.chunk.js",
+    "static/media/project-image-placeholder-6.jpg": "/static/media/project-image-placeholder-6.5b87e8c59a799369c92e.jpg",
+    "static/media/project-image-placeholder-head.jpg": "/static/media/project-image-placeholder-head.ae1337c2e4f25652e420.jpg",
+    "static/media/project-image-placeholder-5.jpg": "/static/media/project-image-placeholder-5.f8776e1d09c392511ea3.jpg",
+    "static/media/Logo.png": "/static/media/Logo.34afaaa87d1557e2953c.png",
+    "static/media/project-image-placeholder-4.webp": "/static/media/project-image-placeholder-4.de45dbdb6315cf5e9fb7.webp",
+    "static/media/project-image-placeholder-3.webp": "/static/media/project-image-placeholder-3.b34afe30230f89a7a4a0.webp",
+    "static/media/project-image-placeholder-1.jpg": "/static/media/project-image-placeholder-1.36467645238e059798ed.jpg",
+    "static/media/project-image-placeholder-2.jpeg": "/static/media/project-image-placeholder-2.43e39bc15a61ddb3dc43.jpeg",
+    "static/media/Ethan-Placeholder.jpg": "/static/media/Ethan-Placeholder.bfa427a3b8a5d52a74be.jpg",
+    "index.html": "/index.html",
+    "main.c2e0a998.css.map": "/static/css/main.c2e0a998.css.map",
+    "main.f4c1114b.js.map": "/static/js/main.f4c1114b.js.map",
+    "453.193de534.chunk.js.map": "/static/js/453.193de534.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2e0a998.css",
-    "static/js/main.106a1899.js"
+    "static/js/main.f4c1114b.js"
   ]
 }
