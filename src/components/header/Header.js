@@ -1,5 +1,5 @@
 import './Header.css'
-import logo from '../../assets/Logo.png';
+import logo from '../../assets/Ethaniel-Snow-Logo-white-cropped.png';
 import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
@@ -23,7 +23,12 @@ const Header = () => {
     return (
 
        <header className={`header${size}`}>
-            <Link to='/'><img src={logo} alt="Ethaniel Snow Logo" id={`navLogo${size}`}></img></Link>
+            <Link to='/'>
+                <div className={`navLogoBox${size}`} id='navLogoBox'>
+                    <img src={logo} alt="Ethaniel Snow Logo" id={`navLogo${size}`}></img>
+                    <span className={`navLogoText${size}`} id='navLogoText'>ETHANIEL SNOW</span>
+                </div>
+            </Link>
             <nav className={`nav${size}`}>
                 <ul>
                     <li className='navButton' id='navGallery'><Link to='/gallery'>Gallery</Link></li>
