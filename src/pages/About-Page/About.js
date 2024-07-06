@@ -1,4 +1,5 @@
 import './About.css'
+import './About-Breakpoints.css'
 import Ethan from '../../assets/Ethan-Placeholder.jpg';
 import { motion } from 'framer-motion';
 

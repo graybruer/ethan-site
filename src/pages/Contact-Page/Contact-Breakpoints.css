@@ -1,0 +1,6 @@
+@media (width <= 550px) {
+    .contactInfo {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}

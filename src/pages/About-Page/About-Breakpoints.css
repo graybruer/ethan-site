@@ -1,0 +1,31 @@
+@media (width <= 960px) {
+    .aboutContent {
+        grid-template-columns: 1fr 1fr 2fr 1fr;
+    }
+}
+
+
+@media (width <= 760px) {
+    .aboutContent {
+        grid-template-columns: auto 1fr auto;
+        grid-template-rows: 1fr 1fr;
+        gap: 1rem;
+        align-items: start;
+        margin-top: 3rem;
+    }
+
+    .Portrait {
+        /* outline: 1px solid black; */
+        max-width: clamp();
+        grid-column: 2;
+        justify-self: center;
+    }
+
+    .aboutContent > p {
+        max-width: 15rem;
+        grid-column: 2;
+        justify-self: center;
+        margin: 0;
+        /* align-self: start; */
+    }
+}

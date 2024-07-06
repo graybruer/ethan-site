@@ -1,4 +1,5 @@
 import './Contact.css'
+import './Contact-Breakpoints.css'
 import { motion } from 'framer-motion';
 
 const Contact = () => {
