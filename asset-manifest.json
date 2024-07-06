@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.841e87d5.css",
-    "main.js": "/static/js/main.ba2e6299.js",
+    "main.css": "/static/css/main.d28535cb.css",
+    "main.js": "/static/js/main.6328d8b4.js",
     "static/js/453.193de534.chunk.js": "/static/js/453.193de534.chunk.js",
     "static/media/project-image-placeholder-6.jpg": "/static/media/project-image-placeholder-6.5b87e8c59a799369c92e.jpg",
     "static/media/project-image-placeholder-head.jpg": "/static/media/project-image-placeholder-head.ae1337c2e4f25652e420.jpg",
@@ -13,12 +13,12 @@
     "static/media/Ethaniel-Snow-Logo-white-cropped.png": "/static/media/Ethaniel-Snow-Logo-white-cropped.66b397e99d2b89d3fd98.png",
     "static/media/Ethan-Placeholder.jpg": "/static/media/Ethan-Placeholder.bfa427a3b8a5d52a74be.jpg",
     "index.html": "/index.html",
-    "main.841e87d5.css.map": "/static/css/main.841e87d5.css.map",
-    "main.ba2e6299.js.map": "/static/js/main.ba2e6299.js.map",
+    "main.d28535cb.css.map": "/static/css/main.d28535cb.css.map",
+    "main.6328d8b4.js.map": "/static/js/main.6328d8b4.js.map",
     "453.193de534.chunk.js.map": "/static/js/453.193de534.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.841e87d5.css",
-    "static/js/main.ba2e6299.js"
+    "static/css/main.d28535cb.css",
+    "static/js/main.6328d8b4.js"
   ]
 }
