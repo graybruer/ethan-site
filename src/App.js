@@ -1,5 +1,6 @@
 import './App.css';
 import { Route, Routes, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import Header from './components/header/Header';
 import Empty from './pages/Empty-Page/Empty';
@@ -10,6 +11,11 @@ import Contact from './pages/Contact-Page/Contact';
 import Footer from './components/footer/Footer';
 
 function App() {
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  });
+
 
   const location = useLocation();
 

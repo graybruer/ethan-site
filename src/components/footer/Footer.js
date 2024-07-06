@@ -1,4 +1,5 @@
 import './Footer.css'
+import './Footer-Breakpoints.css'
 import { useLocation } from 'react-router-dom';
 
 const Footer = () => {
@@ -19,8 +20,8 @@ const Footer = () => {
     return (
 
             <footer className={`footer${display}`}>
-                    <div className={`footerItem${display}`} id={`phoneNumber${display}`}>Phone Number</div>
-                    <div className={`footerItem${display}`} id={`email${display}`}>Email</div>
+                    <div className={`footerItem${display}`} id={`phoneNumber${display}`}>647 220-3430</div>
+                    <div className={`footerItem${display}`} id={`email${display}`}>esnow272@gmail.com</div>
                     <div className={`footerItem${display}`} id={`socialMedia${display}`}>Social Media</div>
             </footer>
 

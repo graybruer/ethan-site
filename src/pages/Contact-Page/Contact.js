@@ -12,8 +12,8 @@ const Contact = () => {
                     exit={{opacity: 0}}
                     transition={{ease: "linear", duration: 0.5}}>
             <article className='contactContent'>
-                <div className='contactInfo' id='phoneNumber'>Phone Number</div>
-                <div className='contactInfo' id='email'>Email</div>
+                <div className='contactInfo' id='phoneNumber'>647 220-3430</div>
+                <div className='contactInfo' id='email'>esnow272@gmail.com</div>
                 <div className='contactInfo' id='socialMedia'>Social Media</div>
             </article>
         </motion.div>

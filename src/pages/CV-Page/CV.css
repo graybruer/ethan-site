@@ -12,10 +12,21 @@
 .cvContent {
     display: grid;
     width: 100%;
-    grid-template-columns: 25rem;
+    grid-template-columns: 1fr 2fr 1fr;
+    /* grid-template-rows: 1vw; */
     text-align: left;
     align-items: center;
     justify-content: center;
     /* background-color: green; */
     /* outline: 1px solid green; */
+}
+
+.cvContent > p {
+    grid-column: 2;
+    &:first-child {
+        margin-top: 5rem;
+    }
+    &:last-child {
+        margin-bottom: 5rem;
+    }
 }

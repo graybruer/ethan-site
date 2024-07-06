@@ -1,0 +1,88 @@
+@media (width <= 960px) {
+
+    .navBufferCompact {
+        width: clamp(0rem, 7vw, 9rem);
+        transition: all var(--time1);
+    }
+
+    #navGallery {
+        margin-right: -2.75rem;
+    }
+
+    #navContact {
+        margin-left: -2.75rem;
+    }
+
+}
+
+@media (width <= 760px) {
+
+    .headerSplash {
+        display: grid;
+        grid-template-rows: 45% 55%;
+        justify-items: center;
+    }
+
+    .headerCompact {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navLogoLinkSplash {
+        align-self: end;
+    }
+
+    .navLogoLinkCompact {
+        align-self: center;
+        margin-top: 0.6rem;
+    }
+
+    .navLogoBoxSplash {
+        max-width: 66vw;
+    }
+
+    .navLogoBoxCompact {
+        margin: 0;
+    }
+
+    .navLogoTextSplash {
+        font-size: 1.25rem;
+        padding-top: 0.33rem;
+    }
+
+    .navLogoTextCompact {
+        /* display: none; */
+        /* visibility: collapse; */
+    }
+
+    nav > ul {
+        flex-direction: column;
+        gap: 1.75rem;
+    }
+
+    .navSplash {
+        align-self: start;
+    }
+
+    .navCompact > ul {
+        display: none;
+    }
+
+    .navBufferSplash {
+        display: none;
+    }
+
+    .navBufferCompact {
+        display: none;
+    }
+
+    #navContact {
+        margin: 0;
+    }
+
+    #navGallery {
+        margin: 0;
+    }
+
+}

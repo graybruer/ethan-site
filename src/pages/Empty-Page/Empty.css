@@ -1,4 +1,4 @@
 #empty {
     display: none;
-    background-color: magenta;
+    background-color: var(--bg-clr-dark);
 }

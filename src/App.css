@@ -1,5 +1,8 @@
 :root {
-  --bg-clr-1: hsla(0, 0%, 15%, 1);
+  --bg-clr-dark: hsla(0, 0%, 12%, 1);
+  --bg-clr-darker: hsla(0, 0%, 10%, 1);
+
+  --time1: 0.66s;
 
   font-family: Inter, sans-serif;
   font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
@@ -12,10 +15,12 @@
 html, body {
   height: 100%;
   width: 100%;
+  background-color: var(--bg-clr-dark);
 }
 
 .App {
   text-align: center;
+  color: #ffffff;
   /* font-family: ; */
   /* background-color: yellowgreen; */
   /* outline: 2px dashed orange; */

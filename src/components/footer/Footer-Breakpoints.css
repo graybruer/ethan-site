@@ -1,0 +1,19 @@
+@media (width <= 550px) {
+
+    .footerYes {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        /* gap: 0.5rem; */
+    }
+
+    .footerItemYes {
+        font-size: 0.8rem;
+        margin-top: 0.8rem;
+    }
+
+    #socialMediaYes {
+        grid-column: 1 / 3;
+        margin-top: 0;
+    }
+
+}

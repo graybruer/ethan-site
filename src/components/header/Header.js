@@ -1,6 +1,7 @@
 import './Header.css'
+import './Header-Breakpoints.css'
 import logo from '../../assets/Ethaniel-Snow-Logo-white-cropped.png';
-import { Link, useLocation } from 'react-router-dom';
+import { NavLink, Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
 
@@ -9,11 +10,11 @@ const Header = () => {
     let size = 'Splash';
 
     let location = useLocation();
-    console.log(location);
+    // console.log(location);
 
+    const page = location.pathname;
 
-    // added the second condition to fix the first load when hosting on github-pages, may remove for final deployment
-    if (location.pathname === '/' || location.pathname === 'ethan-site/') {
+    if (page === '/') {
         size = 'Splash';
     }
     else {
@@ -22,8 +23,8 @@ const Header = () => {
 
     return (
 
-       <header className={`header${size}`}>
-            <Link to='/'>
+       <header  className={`header${size}`}>
+            <Link to='/' className={`navLogoLink${size}`}>
                 <div className={`navLogoBox${size}`} id='navLogoBox'>
                     <img src={logo} alt="Ethaniel Snow Logo" id={`navLogo${size}`}></img>
                     <span className={`navLogoText${size}`} id='navLogoText'>ETHANIEL SNOW</span>
@@ -31,15 +32,27 @@ const Header = () => {
             </Link>
             <nav className={`nav${size}`}>
                 <ul>
-                    <li className='navButton' id='navGallery'><Link to='/gallery'>Gallery</Link></li>
-                    <li className={`navBuffer${size}`} ffer></li>
-                    <li className='navButton' id='navAbout'><Link to='/about'>About</Link></li>
+                    <li className='navButton'
+                        id='navGallery'>
+                        <NavLink to='/gallery'>Gallery</NavLink>
+                    </li>
+                    <li className={`navBuffer${size}`}></li>
+                    <li className='navButton'
+                        id='navAbout'>
+                        <NavLink to='/about'>About</NavLink>
+                    </li>
                     <li className={`navBuffer${size}`}></li>
                     <li className={`navBuffer${size}`}></li>
                     <li className={`navBuffer${size}`}></li>
-                    <li className='navButton' id='navCV'><Link to='/cv'>CV</Link></li>
+                    <li className='navButton'
+                        id='navCV'>
+                        <NavLink to='/cv'>CV</NavLink>
+                    </li>
                     <li className={`navBuffer${size}`}></li>
-                    <li className='navButton' id='navContact'><Link to='/contact'>Contact</Link></li>
+                    <li className='navButton'
+                        id='navContact'>
+                        <NavLink to='/contact'>Contact</NavLink>
+                    </li>
                 </ul>
             </nav>
        </header>
