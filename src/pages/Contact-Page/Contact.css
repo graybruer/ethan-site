@@ -2,7 +2,7 @@
 .contactContent{
     display: grid;
     grid-template-columns: 1fr;
-    grid-auto-rows: calc(( 100vh - (5rem + 2px)) / 3);
+    grid-auto-rows: calc(( 100vh - (5rem + 2px)) / 6);
     align-items: center;
     justify-items: center;
     /* background-color: #4F90CB; */
@@ -11,17 +11,38 @@
     height: calc(100vh - 5rem -2px);
     width: 100%;
     bottom: 0;
-    outline: 2px solid black;
+    /* outline: 2px dashed olive; */
+    /* background-color: olive; */
     transition: all var(--time1);
+}
+
+.contactContent > div > a {
+    transition: 0.4s;
+    &:hover,
+    &:focus{
+        color: #666666;
+        transition: 0.4s;
+    }
+}
+
+.contactLinkLogo {
+    max-height: 4rem;
+    margin: 1rem;
+    border-radius: 15px;
 }
 
 .contactInfo {
     text-align: center;
     font-size: 2rem;
+    /* outline: 2px dashed orange; */
+}
+
+sup {
+    font-size: 0.7rem;
 }
 
 #phoneNumber {
-    align-self: end;
+    grid-row-start: 2;
 }
 
 #socialMedia {

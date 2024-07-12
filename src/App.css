@@ -1,6 +1,6 @@
 :root {
-  --bg-clr-dark: hsla(0, 0%, 12%, 1);
-  --bg-clr-darker: hsla(0, 0%, 10%, 1);
+  --bg-clr-dark: hsla(0, 0%, 10%, 1);
+  --bg-clr-darker: hsla(0, 0%, 8%, 1);
 
   --time1: 0.66s;
 

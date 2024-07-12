@@ -5,7 +5,7 @@
         transition: all var(--time1);
     }
 
-    #navGallery {
+    #navAbout {
         margin-right: -2.75rem;
     }
 
@@ -81,7 +81,7 @@
         margin: 0;
     }
 
-    #navGallery {
+    #navAbout {
         margin: 0;
     }
 

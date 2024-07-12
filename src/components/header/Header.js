@@ -33,13 +33,13 @@ const Header = () => {
             <nav className={`nav${size}`}>
                 <ul>
                     <li className='navButton'
-                        id='navGallery'>
-                        <NavLink to='/gallery'>Gallery</NavLink>
+                        id='navAbout'>
+                        <NavLink to='/about'>About</NavLink>
                     </li>
                     <li className={`navBuffer${size}`}></li>
                     <li className='navButton'
-                        id='navAbout'>
-                        <NavLink to='/about'>About</NavLink>
+                        id='navGallery'>
+                        <NavLink to='/gallery'>Gallery</NavLink>
                     </li>
                     <li className={`navBuffer${size}`}></li>
                     <li className={`navBuffer${size}`}></li>
