@@ -2,7 +2,7 @@ import './CV.css'
 import './CV-Breakpoints.css'
 import { motion } from 'framer-motion';
 import { Document, Page, pdfjs } from 'react-pdf';
-import cvPDF from '../../assets/cv1d8521b065.pdf'
+import cvPDF from '../../assets/Ethan-cv.pdf'
 
 const CV = () => {
 
