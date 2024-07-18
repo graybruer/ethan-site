@@ -1,12 +1,19 @@
 @media (width <= 960px) {
     .cvContent {
-        grid-template-columns: 1fr 3fr 1fr;
+        width: 80%;
     }
 }
 
 
 @media (width <= 760px) {
+
     .cvContent {
-        grid-template-columns: 1fr 80vw 1fr;
+        width: 90%;
+    }
+
+    .react-pdf__Page__canvas {
+        margin: 0 auto;
+        width: 100% !important;
+        height: 100% !important;
     }
 }

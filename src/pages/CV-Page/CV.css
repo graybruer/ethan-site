@@ -6,27 +6,28 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 }
 
 .cvContent {
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr 2fr 1fr;
-    /* grid-template-rows: 1vw; */
+    display: flex;
+    width: 60%;
+    max-width: 70rem;
+    height: 100%;
     text-align: left;
-    align-items: center;
+    align-items:center;
     justify-content: center;
     /* background-color: green; */
     /* outline: 1px solid green; */
 }
 
-.cvContent > p {
-    grid-column: 2;
-    &:first-child {
-        margin-top: 5rem;
-    }
-    &:last-child {
-        margin-bottom: 5rem;
-    }
+.pdf {
+    max-width: 100vw;
+    margin: 2.5rem 0 2.5rem 0;
+}
+
+.react-pdf__Page__canvas {
+    margin: 0 auto;
+    width: 100% !important;
+    height: 100% !important;
 }

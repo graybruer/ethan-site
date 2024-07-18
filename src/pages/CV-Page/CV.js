@@ -1,8 +1,17 @@
 import './CV.css'
 import './CV-Breakpoints.css'
 import { motion } from 'framer-motion';
+import { Document, Page, pdfjs } from 'react-pdf';
+import cvPDF from '../../assets/cv1d8521b065.pdf'
 
 const CV = () => {
+
+    pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+        'pdfjs-dist/build/pdf.worker.min.mjs',
+        import.meta.url,
+      ).toString();
+
+    // const pdfWidth = '1000';
 
     return (
         //  reference: https://www.framer.com/motion/component/
@@ -12,63 +21,13 @@ const CV = () => {
                     animate={{opacity: 1, transition:{duration:1.5}}}
                     exit={{opacity: 0}}
                     transition={{ease: 'linear', duration: 0.5}}>
+
             <article className='cvContent'>
-                <p>
-                    Duis aute irure dolor in reprehenderit in voluptate
-                     velit esse cillum dolore eu fugiat nulla pariatur.
-                     Excepteur sint occaecat cupidatat non proident,
-                     sunt in culpa qui officia deserunt mollit anim id est laborum."
-                     <br/>
-                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                     sed do eiusmod tempor incididunt ut labore et dolore magna
-                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-                <p>
-                    Duis aute irure dolor in reprehenderit in voluptate
-                     velit esse cillum dolore eu fugiat nulla pariatur.
-                     Excepteur sint occaecat cupidatat non proident,
-                     sunt in culpa qui officia deserunt mollit anim id est laborum."
-                     <br/>
-                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                     sed do eiusmod tempor incididunt ut labore et dolore magna
-                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-                <p>
-                    Duis aute irure dolor in reprehenderit in voluptate
-                     velit esse cillum dolore eu fugiat nulla pariatur.
-                     Excepteur sint occaecat cupidatat non proident,
-                     sunt in culpa qui officia deserunt mollit anim id est laborum."
-                     <br/>
-                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                     sed do eiusmod tempor incididunt ut labore et dolore magna
-                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-                <p>
-                    Duis aute irure dolor in reprehenderit in voluptate
-                     velit esse cillum dolore eu fugiat nulla pariatur.
-                     Excepteur sint occaecat cupidatat non proident,
-                     sunt in culpa qui officia deserunt mollit anim id est laborum."
-                     <br/>
-                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                     sed do eiusmod tempor incididunt ut labore et dolore magna
-                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-                <p>
-                    Duis aute irure dolor in reprehenderit in voluptate
-                     velit esse cillum dolore eu fugiat nulla pariatur.
-                     Excepteur sint occaecat cupidatat non proident,
-                     sunt in culpa qui officia deserunt mollit anim id est laborum."
-                     <br/>
-                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                     sed do eiusmod tempor incididunt ut labore et dolore magna
-                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
+                <Document className='pdf' file={cvPDF}>
+                    <Page pageNumber={1} renderTextLayer={false} renderAnnotationLayer={false}/>
+                </Document>
             </article>
+
         </motion.div>
     );
 };

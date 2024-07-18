@@ -2,7 +2,7 @@
   --bg-clr-dark: hsla(0, 0%, 10%, 1);
   --bg-clr-darker: hsla(0, 0%, 8%, 1);
 
-  --time1: 0.66s;
+  --time1: 0.5s;
 
   font-family: Inter, sans-serif;
   font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
