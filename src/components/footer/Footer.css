@@ -15,7 +15,8 @@
     height: 5rem;
     width: 100%;
     bottom: calc-(5rem + 2px);
-    border-top: 2px solid #C0C0C0;
+    border-top: 2px solid var(--brdr-clr);
+    box-shadow: 0px -3px 20px var(--bg-clr-darker);
     transition: all var(--time1);
 }
 
@@ -33,4 +34,10 @@
 
 .footerItemNo {
     display: none;
+}
+
+.logoLink {
+    height: 1.75rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }

@@ -1,6 +1,8 @@
 import './Footer.css'
 import './Footer-Breakpoints.css'
-import { useLocation } from 'react-router-dom';
+import { useLocation, NavLink } from 'react-router-dom';
+import imdb from '../../assets/imdb_logo.png'
+import dgc from '../../assets/DGC-Logo-White-BlackBG-small.webp'
 
 const Footer = () => {
 
@@ -22,7 +24,18 @@ const Footer = () => {
             <footer className={`footer${display}`}>
                     <div className={`footerItem${display}`} id={`phoneNumber${display}`}>647 220-3430</div>
                     <div className={`footerItem${display}`} id={`email${display}`}>esnow272@gmail.com</div>
-                    <div className={`footerItem${display}`} id={`socialMedia${display}`}>Social Media</div>
+                    <div className={`footerItem${display}`} id={`socialMedia${display}`}>
+                        <NavLink    to='https://www.imdb.com/name/nm13072965/'
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                        <img src={imdb} alt="IMDB Logo" className='logoLink'></img>
+                        </NavLink>
+                        <NavLink    to='https://www.dgc.ca/en/profile-public-view/VTJGc2RHVmtYMStaUXcvdE0wRnRPSVR1VDkySjBUcjVvY1ZzcDYzcHVDcz0%3D'
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                        <img src={dgc} alt="Director's Guild of Canda Logo" className='logoLink' style={{outline: '0.25px solid #ffffff'}}></img>
+                        </NavLink>
+                    </div>
             </footer>
 
     );
