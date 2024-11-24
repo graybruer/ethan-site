@@ -1,5 +1,5 @@
 :root {
-  --bg-clr-dark: hsla(0, 0%, 14%, 1);
+  --bg-clr-dark: hsla(0, 0%, 12%, 1);
   --bg-clr-darker: hsla(0, 0%, 5%, 1);
   --brdr-clr: hsla(0, 0%, 65%, 1);
 
@@ -11,6 +11,21 @@
 
 @supports (font-variation-settings: normal) {
   :root { font-family: InterVariable, sans-serif; }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  list-style-position: outside;
+  /* width: 100%; */
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
 }
 
 html, body {
