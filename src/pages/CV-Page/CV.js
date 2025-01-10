@@ -20,25 +20,32 @@ const CV = () => {
 
                     <div className='filmworkText'>
                             <label htmlFor="responsibilitiesList">
-                                <h3 className='cvSubheading'>Responsibilities included (but were not limited to):</h3>
+                                <h3 className='cvSubheading'>Experienced in:</h3>
                             </label>
                         <div className='rlHolder'>
                             <ul className='responsibilitiesList list'>
                                 <li>Set Design & Management</li>
                                 <li>Conceptual Renderings</li>
                                 <li>Studio Plan Management</li>
-                                <li>Overseeing Trainee Set Design Work</li>
-                                <li>Pick Ups & Deliveries</li>
-                                <li>Set Design & Minor Graphic Work</li>
+                                <li>Overseeing Trainee Work</li>
+                                <li>Minor Graphic Work</li>
                                 <li>Location Measures</li>
                                 <li>Set Prep & Opening</li>
                                 <li>Script Breakdowns</li>
                                 <li>Tech Pack Preparation</li>
-                                <li>Managing Production Calendar & Cashet for Dept.</li>
+                                <li>Managing Production Calendar & Cashet</li>
                             </ul>
                         </div>
                     </div>
                     <div className='filmwork'>
+                    <CV_CARD Title="Kiss of Death"
+                                 Date="2024"
+                                 Company="(Blumhouse)"
+                                 Position="1st Assitant Art Director"/>
+                        <CV_CARD Title="Ginny and Georgia, Season 3"
+                                 Date="2024"
+                                 Company="(Netflix)"
+                                 Position="1st Assitant Art Director"/>
                         <CV_CARD Title="How to Die Alone, Season 1"
                                  Date="2023"
                                  Company="(Disney/Onyx)"

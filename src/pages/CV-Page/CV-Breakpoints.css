@@ -21,8 +21,14 @@
         width: 100%;
     }
 
+    .rlHolder {
+        max-height: 540rem;
+    }
+
     .responsibilitiesList {
-        columns: 2;
+        /* columns: 2; */
+        grid-template-rows: repeat(6, 2.5rem);
+        grid-template-columns: 19rem 19rem;
     }
 
     .skills {
@@ -74,22 +80,25 @@
     }
 
     .responsibilitiesList {
-        columns: 1;
+        /* columns: 1; */
+        grid-template-rows: repeat(10, 2.5rem );
+        grid-template-columns: 19rem;
+        margin-bottom: 4rem;
     }
 
     .skills {
         grid-template-areas:
-        ". ind ."
-        ". des ."
-        ". soft ."
-        ". gen .";
+        "ind"
+        "des"
+        "soft"
+        "gen";
         text-wrap: balance;
         max-height: 1000000px;
         width: 100%;
     }
 
     .skills > .list {
-        width: 30ch;
+        width: 28ch;
     }
 
     /* .skills{

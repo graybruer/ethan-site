@@ -49,14 +49,6 @@ h3 {
 
 /* ----------------------------------------------------------------------------- */
 
-.filmwork {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    max-width: 100%;
-    /* outline: 1px solid aqua; */
-}
 
 .filmworkText {
     display: flex;
@@ -68,21 +60,41 @@ h3 {
 }
 
 .rlHolder {
+    display: flex;
     width: 100%;
-    text-align: center;
+    max-height: 12rem;
+    padding: 1rem;
+    justify-content: center;
+    overflow:hidden;
 }
 
 .responsibilitiesList {
-    display: inline-block;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: 2.5rem 2.5rem 2.5rem 2.5rem ;
+    grid-template-columns: 19rem 17rem 19rem;
+    /* ^This is hacky as hell but I'm fed up trying to make a more elagent solution work to automatically allow for different width columns. Doing this manually at least looks good for now even if it will be janky to add to.  */
     text-align: left;
-    columns: 3;
-    gap: 2rem;
     line-height: 2rem;
     margin-bottom: 3rem;
 }
 
 .responsibilitiesList > li {
-    max-width: 23ch;
+    list-style-position: inside;
+    text-indent: -1em;
+    padding-left: 1em;
+    margin: 0 3rem 0 3rem;
+    /* background-color: aqua; */
+}
+
+.filmwork {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 85rem;
+    /* max-width: 100%; */
+    /* outline: 1px solid aqua; */
 }
 
 /* ----------------------------------------------------------------------------- */
