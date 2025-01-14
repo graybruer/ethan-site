@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2d8cf114.css",
-    "main.js": "/static/js/main.c49eecac.js",
+    "main.js": "/static/js/main.83c9a4b4.js",
     "static/js/453.193de534.chunk.js": "/static/js/453.193de534.chunk.js",
     "static/media/Ethaniel_Snow_Portfolio_Image-02.png": "/static/media/Ethaniel_Snow_Portfolio_Image-02.648d6ea1d5fc02569198.png",
     "static/media/Ethaniel_Snow_Portfolio_Image-19.png": "/static/media/Ethaniel_Snow_Portfolio_Image-19.6855c514b017132a6bcc.png",
@@ -15,11 +15,11 @@
     "static/media/DGC-Logo-White-BlackBG-small.webp": "/static/media/DGC-Logo-White-BlackBG-small.b2122fa576bd8655b10a.webp",
     "index.html": "/index.html",
     "main.2d8cf114.css.map": "/static/css/main.2d8cf114.css.map",
-    "main.c49eecac.js.map": "/static/js/main.c49eecac.js.map",
+    "main.83c9a4b4.js.map": "/static/js/main.83c9a4b4.js.map",
     "453.193de534.chunk.js.map": "/static/js/453.193de534.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2d8cf114.css",
-    "static/js/main.c49eecac.js"
+    "static/js/main.83c9a4b4.js"
   ]
 }
