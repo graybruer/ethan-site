@@ -88,7 +88,8 @@
     /* outline: 5px solid green; */
     /* background-color: greenyellow; */
     &:hover > div,
-    &:focus > div
+    &:focus > div,
+    &:active > div
     {
         box-shadow: 0 6px 30px rgba(0, 0, 0, 0.5);
         /* font-size: 2.4rem; */
@@ -107,7 +108,8 @@
     transition: 0.5s;
     /* outline: 5px dashed yellow; */
     &:hover,
-    &:focus {
+    &:focus,
+    &:active {
         transform: scale(1.05);
         transition: 0.5s;
     }
