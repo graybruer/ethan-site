@@ -1,0 +1,14 @@
+.projectPage {
+    height: 20rem;
+    outline: 3px solid red;
+}
+
+.projectDetails {
+    height: 19rem;
+    outline: 3px dashed aqua;
+}
+
+article div {
+    height: 20rem;
+    outline: 3px dotted limegreen;
+}

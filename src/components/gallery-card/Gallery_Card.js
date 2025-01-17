@@ -1,25 +1,23 @@
-import './Gallery_Card.css'
-import './Gallery_Card-Breakpoints.css'
-// import './CV-Breakpoints.css'
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 
-const CV_CARD = (props) => {
+const GALLERY_CARD = (props) => {
 
     return (
 
-        <motion.div className="gallery-card"
+        <motion.div className="project"
                     initial={{opacity: 0}}
                     animate={{opacity: 1, transition:{duration:1.5}}}
                     exit={{opacity: 0}}
                     transition={{ease: 'linear', duration: 0.5}}>
 
-                <h1>{props.Title}</h1>
-                <h2>{props.Date}</h2>
-                <h2>{props.Company}</h2>
-                <h3>{props.Position}</h3>
-
+                <Link to ={props.LinkTo}>
+                <img src={props.Image} alt={props.Title}></img>
+                <div className={props.TitleSide}>{props.Title}</div>
+                </Link>
         </motion.div>
+
     );
 };
 

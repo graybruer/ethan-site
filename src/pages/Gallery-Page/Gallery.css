@@ -2,7 +2,6 @@
     min-height: calc(100% -5rem);
     height: 100%;
     width: 100vw;
-    /* flex: 1; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,90 +35,61 @@
     margin-bottom: 1.5rem;
 }
 
-.projectHeader {
-    grid-column: 1 / span 3;
-    display: grid;
-    /* grid-template-columns: 10% repeat(10); */
-    grid-template-rows: 25%;
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* outline: 5px solid red; */
-    max-height: 40rem;
-    width: 100%;
-}
-
-.projectHeader > img {
-    max-height: 35rem;
-    width: 100%;
-    grid-column: 1 / span 4;
-    grid-row: 1 / span 4;
-    object-fit: cover;
-    object-position: 50% 50%;
-    /* outline: 5px dashed pink; */
-}
-
-.projectHeaderText {
-    grid-row: 2;
-    grid-column: 2;
-    height: 10rem;
-    /* max-width: 50vw; */
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    font-size: 2.25rem;
-    color: #000000;
-    font-weight: bold;
-    border-radius: 15px;
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-}
-
 .project {
-    grid-column: 1 / span 3;
-    max-height: 19rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 1 / span 3;
+    max-height: 19rem;
     align-items: center;
     overflow: hidden;
     /* outline: 5px solid green; */
     /* background-color: greenyellow; */
-    &:hover > div,
-    &:focus > div,
-    &:active > div
+    &:hover > a > div,
+    &:focus > a > div,
+    &:active > a > div
     {
         box-shadow: 0 6px 30px rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(3px);
         /* font-size: 2.4rem; */
+        transition: 0.5s;
+    }
+    &:hover > a > img,
+    &:focus > a > img,
+    &:active > a > img
+    {
+        transform: scale(1.05);
         transition: 0.5s;
     }
 }
 
-.project > img {
+.project > a {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     height: 100%;
-    max-height: 20rem;
+    max-height: 19rem;
+    width: 100%;
+    grid-row: 1;
+    grid-column: 1 / span 3;
+    /* outline: 12px dashed lightseagreen; */
+}
+
+.project img {
+    height: 100%;
+    /* max-height: 20rem; */
     width: 100%;
     object-fit: cover;
     object-position: 50% 7.5%;
     grid-row: 1;
     grid-column: 1 / span 4;
     transition: 0.5s;
-    /* outline: 5px dashed yellow; */
-    &:hover,
-    &:focus,
-    &:active {
-        transform: scale(1.05);
-        transition: 0.5s;
-    }
+    /* outline: 2px dotted yellow; */
 }
 
 .projectTitleRight {
     grid-row: 1;
     grid-column: 3;
     height: 100%;
-    padding: 2rem;
+    /* padding: 2rem; */
     font-size: 2.25rem;
     text-align: right;
     font-weight: bold;
@@ -138,7 +108,7 @@
     grid-row: 1;
     grid-column: 1;
     height: 100%;
-    padding: 2rem;
+    /* padding: 2rem; */
     font-size: 2.25rem;
     text-align: left;
     font-weight: bold;
