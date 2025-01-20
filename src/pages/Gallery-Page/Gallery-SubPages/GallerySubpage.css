@@ -1,14 +1,54 @@
 .projectPage {
-    height: 20rem;
-    outline: 3px solid red;
+    height: 100%;
+    /* outline: 3px solid red; */
+    /* background-color: red; */
 }
 
 .projectDetails {
-    height: 19rem;
-    outline: 3px dashed aqua;
+    height: 100%;
+    /* outline: 3px dashed aqua; */
+    /* background-color: aqua; */
 }
 
-article div {
+.projectDetails:last-child {
+    margin-bottom: 3rem;
+}
+
+.projectTopImage {
+    height: 22rem;
+    width: 100%;
+    /* outline: 3px dotted orange; */
+    /* background-color: orange; */
+}
+
+.theBigThreeDetails {
+    height: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* align-items: center; */
+    align-content: center;
+    /* outline: 3px dotted limegreen; */
+    /* background-color: limegreen; */
+}
+
+.projectDetails > video {
+    height: 22rem;
+    width: 100%;
+    object-fit: cover;
+    /* outline: 2px dashed yellow */
+}
+
+.detailsText {
+    min-height: 10rem;
+    display: grid;
+    align-content: center;
+    /* outline: 3px dotted orange; */
+}
+
+.projectExtraImages {
     height: 20rem;
-    outline: 3px dotted limegreen;
+    width: 100%;
+    margin-top: 1rem;
+    /* outline: 3px dotted orange; */
+    /* background-color: orange; */
 }

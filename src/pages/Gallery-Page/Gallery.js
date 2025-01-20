@@ -28,43 +28,49 @@ const Gallery = () => {
                     Title = "Kiss of Death"
                     Image = {project7}
                     TitleSide = "projectTitleRight"
-                    LinkTo = "KissOfDeath"
+                    LinkTo = "kiss-of-death"
                 />
 
                 <GALLERY_CARD
                     Title = "Ginny and Georgia"
                     Image = {project6}
                     TitleSide = "projectTitleLeft"
+                    LinkTo = "ginny-and-georgia"
                 />
 
                 <GALLERY_CARD
                     Title = "Common Ground"
                     Image = {project5}
                     TitleSide = "projectTitleRight"
+                    LinkTo = "common-ground"
                 />
 
                 <GALLERY_CARD
                     Title = "How To Die Alone"
                     Image = {project4}
                     TitleSide = "projectTitleLeft"
+                    LinkTo = "how-to-die-alone"
                 />
 
                 <GALLERY_CARD
                     Title = "The Way Home"
                     Image = {project3}
                     TitleSide = "projectTitleRight"
+                    LinkTo = "the-way-home"
                 />
 
                 <GALLERY_CARD
                     Title = "Orphan Black: Echoes"
                     Image = {project2}
                     TitleSide = "projectTitleLeft"
+                    LinkTo = "orphan-black-echoes"
                 />
 
                 <GALLERY_CARD
                     Title = "Ruby And The Well"
                     Image = {project1}
                     TitleSide = "projectTitleRight"
+                    LinkTo = "ruby-and-the-well"
                 />
 
             </article>

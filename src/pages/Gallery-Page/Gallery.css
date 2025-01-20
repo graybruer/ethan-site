@@ -73,7 +73,7 @@
     /* outline: 12px dashed lightseagreen; */
 }
 
-.project img {
+.project > a > img {
     height: 100%;
     /* max-height: 20rem; */
     width: 100%;
