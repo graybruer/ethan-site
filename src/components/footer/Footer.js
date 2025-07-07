@@ -22,7 +22,7 @@ const Footer = () => {
     return (
 
             <footer className={`footer${display}`}>
-                    <div className={`footerItem${display}`} id={`phoneNumber${display}`}>647 220-3430</div>
+                    <div className={`footerItem${display}`} id={`phoneNumber${display}`}>+1 (647) 220-3430</div>
                     <div className={`footerItem${display}`} id={`email${display}`}>esnow272@gmail.com</div>
                     <div className={`footerItem${display}`} id={`socialMedia${display}`}>
                         <NavLink    to='https://www.imdb.com/name/nm13072965/'

@@ -9,13 +9,13 @@ const KissOfDeath = () => {
     return (
 
         <motion.div className="projectPage"
-                    initial={{opacity: 0}}
-                    animate={{opacity: 1, transition:{duration:1.5}}}
-                    exit={{opacity: 0}}
-                    transition={{ease: 'linear', duration: 0.5}}>
+                    initial={{y: 300, opacity: 0}}
+                    animate={{y: 0, opacity: 1,}}
+                    exit={{y: 300, opacity: 0}}
+                    transition={{ease: 'easeInOut', duration: 0.5}}>
             <article className='projectDetails'>
 
-                <img className='projectTopImage' src={placeholder} alt='blah'></img>
+                <img className='projectTopImage' src={placeholder} alt='blah blah blah'></img>
                 <div className='theBigThreeDetails'>
                     <p>Kiss of Death</p>
                     <p>2024</p>
@@ -27,10 +27,10 @@ const KissOfDeath = () => {
                         controls='true'
                         loop='true'>
                 </video>
-                <div className='detailsText'>This is what I worked on for this job blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah  </div>
-                <img className='projectExtraImages' src={placeholder} alt='blah'></img>
-                <img className='projectExtraImages' src={placeholder} alt='blah'></img>
-                <img className='projectExtraImages' src={placeholder} alt='blah'></img>
+                <div className='detailsText'>This is what I worked on for this job blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah enter content here  </div>
+                <img className='projectExtraImages' src={placeholder} alt='blah blah blah'></img>
+                <img className='projectExtraImages' src={placeholder} alt='blah blah blah'></img>
+                <img className='projectExtraImages' src={placeholder} alt='blah blah blah'></img>
 
             </article>
         </motion.div>
