@@ -10,9 +10,9 @@ const About = () => {
         // also: https://www.youtube.com/watch?v=0Q5a9ta5m0s
         <motion.div className='about'
                     initial={{opacity: 0}}
-                    animate={{opacity: 1, transition:{duration:1.5}}}
+                    animate={{opacity: 1, transition:{duration: 0.25}}}
                     exit={{opacity: 0}}
-                    transition={{ease: "linear", duration: 0.5}}>
+                    transition={{ease: "linear", duration: 0.25}}>
             <article className='aboutContent'>
                 <img src={Ethan} alt="Ethaniel Snow" className='Portrait'></img>
                 <p>

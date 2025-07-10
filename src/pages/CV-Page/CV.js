@@ -9,9 +9,9 @@ const CV = () => {
 
         <motion.div className="cv"
                     initial={{opacity: 0}}
-                    animate={{opacity: 1, transition:{duration:1.5}}}
+                    animate={{opacity: 1, transition:{duration: 0.25}}}
                     exit={{opacity: 0}}
-                    transition={{ease: 'linear', duration: 0.5}}>
+                    transition={{ease: 'linear', duration: 0.25}}>
 
             <article className='cvContent'>
 
