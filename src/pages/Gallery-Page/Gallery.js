@@ -25,6 +25,27 @@ const Gallery = () => {
             <article className='GalleryContent'>
 
                 <GALLERY_CARD
+                    Title = "Brilliant Minds - Season 2"
+                    Image = {project7}
+                    TitleSide = "projectTitleLeft"
+                    LinkTo = "brilliant-minds-season-2"
+                />
+
+                <GALLERY_CARD
+                    Title = "Sterling Point - Season 1"
+                    Image = {project7}
+                    TitleSide = "projectTitleRight"
+                    LinkTo = "sterling-point-season-1"
+                />
+                
+                <GALLERY_CARD
+                    Title = "Relationship Goals"
+                    Image = {project7}
+                    TitleSide = "projectTitleLeft"
+                    LinkTo = "relationship-goals"
+                />
+
+                <GALLERY_CARD
                     Title = "Kiss of Death"
                     Image = {project7}
                     TitleSide = "projectTitleRight"

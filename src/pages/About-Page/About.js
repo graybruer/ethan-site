@@ -15,17 +15,18 @@ const About = () => {
                     transition={{ease: "linear", duration: 0.25}}>
             <article className='aboutContent'>
                 <img src={Ethan} alt="Ethaniel Snow" className='Portrait'></img>
+                <article>
                 <p>
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                     sed do eiusmod tempor incididunt ut labore et dolore magna
-                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                     <br/>
-                     Duis aute irure dolor in reprehenderit in voluptate
-                     velit esse cillum dolore eu fugiat nulla pariatur.
-                     Excepteur sint occaecat cupidatat non proident,
-                     sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    Ethan Snow is an Assistant Art Director who has worked on numerous projects.
+                    Outside of film, he works on the odd residential/commercial interior design & contracting project.
                 </p>
+                <p>
+                    He currently lives in [insert city here] and is available to work [in area].
+                    With experience a people and projects, strong technical drafting and 3D modelling skills, 
+                    and a strong understanding of construction and building practices, 
+                    Ethan has a generalist skill set and works well as part of a team or individually.
+                </p>
+                </article>
             </article>
         </motion.div>
     );

@@ -21,6 +21,12 @@
     /* outline: 1px solid green; */
 }
 
+.aboutContent article {
+    max-width: 30ch;
+    /* justify-self: left; */
+    /* outline: 1px solid green; */
+}
+
 .Portrait {
     /* outline: 1px solid black; */
     max-width: 17rem;

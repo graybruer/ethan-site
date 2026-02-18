@@ -7,23 +7,27 @@
 
 @media (width <= 760px) {
     .aboutContent {
-        grid-template-columns: auto 1fr auto;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
         gap: 1rem;
         align-items: start;
         margin-top: 3rem;
     }
 
+    .aboutContent article{
+        margin: 0 0 3rem 0;
+        max-width: 28ch;
+    }
+
     .Portrait {
         /* outline: 1px solid black; */
         max-width: clamp();
-        grid-column: 2;
+        grid-column: 1;
         justify-self: center;
     }
 
     .aboutContent > p {
-        max-width: 15rem;
-        grid-column: 2;
+        grid-column: 1;
         justify-self: center;
         margin: 0;
         /* align-self: start; */

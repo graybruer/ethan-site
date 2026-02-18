@@ -38,34 +38,46 @@ const CV = () => {
                         </div>
                     </div>
                     <div className='filmwork'>
-                    <CV_CARD Title="Kiss of Death"
-                                 Date="2024"
-                                 Company="(Blumhouse)"
-                                 Position="1st Assitant Art Director"/>
+                        <CV_CARD Title="Brilliant Minds - Season 2"
+                                Date="2025"
+                                Company="(???)"
+                                Position="1st Assistant Art Director"/>
+                        <CV_CARD Title="Sterling Point - Season 1"
+                                Date="2025"
+                                Company="(???)"
+                                Position="1st Assistant Art Director"/>
+                        <CV_CARD Title="Relationship Goals"
+                                Date="2025"
+                                Company="(???)"
+                                Position="1st Assistant Art Director"/>
+                        <CV_CARD Title="Kiss of Death"
+                                Date="2024"
+                                Company="(Blumhouse)"
+                                Position="1st Assistant Art Director"/>
                         <CV_CARD Title="Ginny and Georgia, Season 3"
-                                 Date="2024"
-                                 Company="(Netflix)"
-                                 Position="1st Assitant Art Director"/>
+                                Date="2024"
+                                Company="(Netflix)"
+                                Position="1st Assistant Art Director"/>
                         <CV_CARD Title="How to Die Alone, Season 1"
-                                 Date="2023"
-                                 Company="(Disney/Onyx)"
-                                 Position="1st Assitant Art Director"/>
+                                Date="2023"
+                                Company="(Disney/Onyx)"
+                                Position="1st Assistant Art Director"/>
                         <CV_CARD Title="The Way Home, Season 2"
-                                 Date="2023"
-                                 Company="(Hallmark / Neshama)"
-                                 Position="1st Assitant Art Director"/>
+                                Date="2023"
+                                Company="(Hallmark / Neshama)"
+                                Position="1st Assistant Art Director"/>
                         <CV_CARD Title="Orphan Black: Echoes, Season 1"
-                                 Date="2022"
-                                 Company="(AMC / Boat Rocker)"
-                                 Position="2nd Assitant Art Director"/>
+                                Date="2022"
+                                Company="(AMC / Boat Rocker)"
+                                Position="2nd Assistant Art Director"/>
                         <CV_CARD Title="Departure, Season 3"
-                                 Date="2021"
-                                 Company="(Shaftesbury)"
-                                 Position="Trainee Assistant Art Director / COVID Manager"/>
+                                Date="2021"
+                                Company="(Shaftesbury)"
+                                Position="Trainee Assistant Art Director / COVID Manager"/>
                         <CV_CARD Title="Ruby and the Well, Season 1"
-                                 Date="2021"
-                                 Company="(Shaftesbury)"
-                                 Position="Trainee / 2nd Assistant Art Director"/>
+                                Date="2021"
+                                Company="(Shaftesbury)"
+                                Position="Trainee / 2nd Assistant Art Director"/>
                     </div>
                 </div>
 
@@ -75,14 +87,14 @@ const CV = () => {
                             <label htmlFor="industrySkillsList">
                                 <h1>INDUSTRY SKILLS</h1>
                             </label>
-                            <li>Proficient at Designing Accuratly Scaled Sets from Reference Images</li>
+                            <li>Proficient at Designing Accurately Scaled Sets from Reference Images</li>
                             <li>Drafting Set Plans and Models</li>
                             <li>Sourcing Colours, Materials, and Finishes</li>
                             <li>Managing Location Set Up (Measure, Install, Etc.)</li>
                             <li>Creating Breakdowns for Sets/ Graphics</li>
                             <li>Excel at Spotting Continuity Errors in all Aspects (Graphics, Sets, Scripts, Etc.)</li>
                             <li>Managing Calendar, Tech Packs, and Budgets (incl. Cashet for Department)</li>
-                            <li>Experience Designing Rigs for Grip Deptartment Needs (Used On and Off Camera)</li>
+                            <li>Experience Designing Rigs for Grip Department Needs (Used On and Off Camera)</li>
                         </ul>
                         <ul className='softwareExperienceList list'>
                             <label htmlFor="softwareExperienceList">
@@ -124,26 +136,19 @@ const CV = () => {
                             <li>Intrinsically Motivated</li>
                             <li>First Aid, CPR, and AED Training</li>
                         </ul>
-                    </div>
-                </div>
-
-                <div className='cvSection'>
-                    <div className='education'>
-                        <label htmlFor="educationList">
-                            <h1>EDUCATION</h1>
-                        </label>
-                        <div className='educationList'>
-                            <ul className='educationList1 list'>
-                                <h3>Honours Bachelor's Degree - Interior Design Sheridan College 2013 - 2017</h3>
-                                <li>Graduated with high honours (3.8 GPA)</li>
-                                <li>Undergraduate Certificate in Creativity and Problem Solving</li>
-                                <li>Recipient of Faculty Award at Program Completion</li>
-                            </ul>
-                            <ul className='educationList2 list'>
-                                <h3>Ontario College of Art and Design (OCADU) 2011-2013</h3>
-                                <li>Studied life drawing, animation, jewellery smithing, and art/ material art history</li>
-                            </ul>
-                        </div>
+                        <ul className='educationList1 list'>
+                            <label htmlFor="educationList1 educationList2">
+                                <h1>EDUCATION</h1>
+                            </label>
+                            <h3>Honours Bachelor's Degree - Interior Design Sheridan College 2013 - 2017</h3>
+                            <li>Graduated with high honours (3.8 GPA)</li>
+                            <li>Undergraduate Certificate in Creativity and Problem Solving</li>
+                            <li>Recipient of Faculty Award at Program Completion</li>
+                        </ul>
+                        <ul className='educationList2 list'>
+                            <h3>Ontario College of Art and Design (OCADU) 2011-2013</h3>
+                            <li>Studied life drawing, animation, jewellery smithing, and art/ material art history</li>
+                        </ul>
                     </div>
                 </div>
 

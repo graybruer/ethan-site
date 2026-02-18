@@ -1,24 +1,21 @@
 
-import { motion } from 'framer-motion';
+import GallerySubpage from "../../../components/gallery-subpage/GallerySubpage";
 
+import placeholder from '../../../assets/placeholder.png';
+import placeholder_video2 from '../../../assets/Project Pages/flower.webm'
 
 const TheWayHome = () => {
 
     return (
-        //  reference: https://www.framer.com/motion/component/
-        // also: https://www.youtube.com/watch?v=0Q5a9ta5m0s
 
-        <motion.div className="Gallery"
-                    initial={{opacity: 0}}
-                    animate={{opacity: 1, transition:{duration:1.5}}}
-                    exit={{opacity: 0}}
-                    transition={{ease: 'linear', duration: 0.5}}>
-            <article className='GalleryContent'>
+        <GallerySubpage Video={placeholder_video2}
+                Title="The Way Home"
+                Date="???"
+                Role="???"
+                Details="This is what I worked on for this job blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah enter content here"
+                Image1={placeholder}
+        />
 
-                <p>test pls work</p>
-
-            </article>
-        </motion.div>
     );
 };
 

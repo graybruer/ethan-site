@@ -18,15 +18,15 @@ const Contact = () => {
             <article className='contactContent'>
                 <div></div>
                 <div className='contactInfo' id='phoneNumber'>647 220-3430</div>
-                <div className='contactInfo' id='email'>esnow272@gmail.com</div>
+                <div className='contactInfo' id='email'><a href='mailto:esnow272@gmail.com'>esnow272@gmail.com</a></div>
                 <div className='contactInfo' id='DGCLink'>
                     <NavLink to={'https://www.dgc.ca/en/profile-public-view/VTJGc2RHVmtYMStaUXcvdE0wRnRPSVR1VDkySjBUcjVvY1ZzcDYzcHVDcz0%3D'}>
-                        Directors Guild of Canada Profile <sup>🔗</sup>
+                        Directors Guild of Canada Profile
                     </NavLink>
                 </div>
                 <div className='contactInfo' id='IMDBLink'>
                     <NavLink to={'https://www.imdb.com/name/nm13072965/'}>
-                        IMDB Profile <sup>🔗</sup>
+                        IMDB Profile
                     </NavLink>
                 </div>
                 <div></div>

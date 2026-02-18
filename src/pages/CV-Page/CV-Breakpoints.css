@@ -2,7 +2,7 @@
 
     .cvContent {
         display: flex;
-        width: 60%;
+        /* width: 60%; */
         /* max-width: 70rem; */
         height: 100%;
         text-align: left;
@@ -16,19 +16,27 @@
     .filmwork {
         /* outline: 1px solid aqua; */
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        /* grid-template-columns: 1fr 1fr; */
         justify-items: center;
         width: 100%;
+        margin-bottom: 2rem;
     }
 
     .rlHolder {
-        max-height: 540rem;
+        /* height: 54rem; */
+        /* outline: 1px solid red; */
     }
 
     .responsibilitiesList {
         /* columns: 2; */
-        grid-template-rows: repeat(6, 2.5rem);
-        grid-template-columns: 19rem 19rem;
+        grid-template-rows: repeat(5, auto);
+        grid-template-columns: 32ch 32ch;
+        /* outline: 1px solid gold; */
+    }
+
+    .responsibilitiesList > li {
+        padding: 0 0 0 1.8rem;
+        /* outline: 1px solid fuchsia; */
     }
 
     .skills {
@@ -36,22 +44,20 @@
         ". ind ."
         ". des ."
         ". soft ."
-        ". gen .";
+        ". gen ."
+        ". edu1 ."
+        ". edu2 .";
         text-wrap: balance;
-        max-height: 1000000px;
+        /* max-height: 1000000px; */
         width: 100%;
     }
 
-    .skills > .list {
-        width: 30ch;
+    .educationList2 {
+    margin-top: 1rem;
     }
 
-    .educationList{
-        display: grid;
-        grid-template-areas:
-            "one"
-            "two";
-        justify-items: center;
+    .skills > .list {
+        /* width: 30ch; */
     }
 
 }
@@ -88,13 +94,19 @@
 
     .skills {
         grid-template-areas:
-        "ind"
-        "des"
-        "soft"
-        "gen";
+        ". ind ."
+        ". des ."
+        ". soft ."
+        ". gen ."
+        ". edu1 ."
+        ". edu2 .";
         text-wrap: balance;
-        max-height: 1000000px;
+        /* max-height: 1000000px; */
         width: 100%;
+    }
+
+    .educationList2 {
+    margin-top: 1rem;
     }
 
     .skills > .list {
