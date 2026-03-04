@@ -13,6 +13,9 @@ import Gallery from './pages/Gallery-Page/Gallery';
   import TheWayHome from './pages/Gallery-Page/Gallery-SubPages/TheWayHome';
   import OrphanBlackEchoes from './pages/Gallery-Page/Gallery-SubPages/OrphanBlackEchoes';
   import RubyAndTheWell from './pages/Gallery-Page/Gallery-SubPages/RubyAndTheWell';
+  import RelationshipGoals from './pages/Gallery-Page/Gallery-SubPages/RelationshipGoals';
+  import SterlingPoint from './pages/Gallery-Page/Gallery-SubPages/SterlingPointS1';
+  import BrilliantMinds from './pages/Gallery-Page/Gallery-SubPages/BrilliantMindsS2';
 import CV from './pages/CV-Page/CV';
 import Contact from './pages/Contact-Page/Contact';
 import Footer from './components/footer/Footer';
@@ -43,6 +46,9 @@ function App() {
             <Route path="gallery/the-way-home"        element={<TheWayHome/>} />
             <Route path="gallery/orphan-black-echoes" element={<OrphanBlackEchoes/>} />
             <Route path="gallery/ruby-and-the-well"   element={<RubyAndTheWell/>} />
+            <Route path="gallery/relationship-goals"          element={<RelationshipGoals/>} />
+            <Route path="gallery/sterling-point-season-1"     element={<SterlingPoint/>} />
+            <Route path="gallery/brilliant-minds-season-2"    element={<BrilliantMinds/>} />
           <Route path="/cv"                         element={<CV/>} />
           <Route path="/contact"                    element={<Contact/>} />
         </Routes>
