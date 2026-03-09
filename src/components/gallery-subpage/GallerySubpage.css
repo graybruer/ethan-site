@@ -4,6 +4,12 @@
     /* background-color: red; */
 }
 
+.backButtonSubGallery {
+    /* border: 2px solid #000000; */
+    background-color: var(--bg-clr-darker);
+    padding: 1rem;
+}
+
 .projectDetails {
     height: 100%;
     text-wrap: balance;

@@ -19,6 +19,7 @@ const GallerySubpage = (props) => {
         animate={{y: 0, opacity: 1,}}
         exit={{y: 300, opacity: 0}}
         transition={{ease: 'easeInOut', duration: 0.5}}>
+            <a href='#/gallery'><div className='backButtonSubGallery'>{'<'} Back to Gallery</div></a>
             <article className='projectDetails'>
                 <video  src={props.Video}
                         type="video/webm"
