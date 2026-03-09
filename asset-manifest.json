@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1ab72f96.css",
-    "main.js": "/static/js/main.b1c535c1.js",
+    "main.css": "/static/css/main.3cb4b1c4.css",
+    "main.js": "/static/js/main.b74e4cdf.js",
     "static/js/453.193de534.chunk.js": "/static/js/453.193de534.chunk.js",
     "static/media/Ethaniel_Snow_Portfolio_Image-02.png": "/static/media/Ethaniel_Snow_Portfolio_Image-02.648d6ea1d5fc02569198.png",
     "static/media/Ethaniel_Snow_Portfolio_Image-19.png": "/static/media/Ethaniel_Snow_Portfolio_Image-19.6855c514b017132a6bcc.png",
@@ -20,12 +20,12 @@
     "static/media/DGC-Logo-White-BlackBG-small.webp": "/static/media/DGC-Logo-White-BlackBG-small.b2122fa576bd8655b10a.webp",
     "static/media/lg.woff2?io9a6k": "/static/media/lg.64b800aa30714fd916dc.woff2",
     "index.html": "/index.html",
-    "main.1ab72f96.css.map": "/static/css/main.1ab72f96.css.map",
-    "main.b1c535c1.js.map": "/static/js/main.b1c535c1.js.map",
+    "main.3cb4b1c4.css.map": "/static/css/main.3cb4b1c4.css.map",
+    "main.b74e4cdf.js.map": "/static/js/main.b74e4cdf.js.map",
     "453.193de534.chunk.js.map": "/static/js/453.193de534.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ab72f96.css",
-    "static/js/main.b1c535c1.js"
+    "static/css/main.3cb4b1c4.css",
+    "static/js/main.b74e4cdf.js"
   ]
 }
