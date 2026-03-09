@@ -1,11 +1,11 @@
 import './Gallery.css'
 import './Gallery-Breakpoints.css'
 import { motion } from 'framer-motion';
-import project7 from '../../assets/project-image-placeholder-1.jpg'
-import project6 from '../../assets/project-image-placeholder-2.jpeg'
-import project5 from '../../assets/project-image-placeholder-4.webp'
+import project7 from '../../assets/placeholder.png'
+import project6 from '../../assets/placeholder.png'
+import project5 from '../../assets/placeholder.png'
 import project4 from '../../assets/Ethan Snow Portfolio Images/Ethaniel_Snow_Portfolio_Image-02.png'
-import project3 from '../../assets/project-image-placeholder-3.webp'
+import project3 from '../../assets/placeholder.png'
 import project2 from '../../assets/Ethan Snow Portfolio Images/Ethaniel_Snow_Portfolio_Image-19.png'
 import project1 from '../../assets/Ethan Snow Portfolio Images/Ethaniel_Snow_Portfolio_Image-29.png'
 import GALLERY_CARD from '../../components/gallery-card/Gallery_Card';
