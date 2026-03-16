@@ -1,27 +1,26 @@
-@media (width <= 960px) {
-    .aboutContent {
-        grid-template-columns: 1fr 1fr 2fr 1fr;
-    }
-}
-
 
 @media (width <= 760px) {
     .aboutContent {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        gap: 1rem;
+        /* grid-template-columns: 1fr; */
+        /* grid-template-rows: 1fr; */
+        /* gap: 1rem; */
         align-items: start;
         margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        max-width: 34ch;
     }
 
     .aboutContent article{
         margin: 0 0 3rem 0;
-        max-width: 28ch;
+        max-width: 22rem;
     }
 
     .Portrait {
         /* outline: 1px solid black; */
-        max-width: clamp();
+        /* max-width: clamp(); */
+        max-height: 22rem;
+        width: 100%;
         grid-column: 1;
         justify-self: center;
     }
@@ -29,7 +28,7 @@
     .aboutContent > p {
         grid-column: 1;
         justify-self: center;
-        margin: 0;
+        /* margin: 0; */
         /* align-self: start; */
     }
 }

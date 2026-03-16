@@ -12,24 +12,27 @@
 .aboutContent {
     display: grid;
     width: 100%;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 35ch 35ch 1fr;
     text-align: left;
     align-items: center;
     justify-items: center;
+    justify-content: center;
     gap: 2rem;
     /* background-color: green; */
     /* outline: 1px solid green; */
 }
 
 .aboutContent article {
-    max-width: 30ch;
-    /* justify-self: left; */
+    max-width: 35ch;
     /* outline: 1px solid green; */
 }
 
 .Portrait {
     /* outline: 1px solid black; */
-    max-width: 17rem;
+    /* max-width: 35ch; */
+    max-height: 26rem;
+    width: 100%;
+    object-fit: cover;
     grid-column: 2;
     justify-self: end;
 }
