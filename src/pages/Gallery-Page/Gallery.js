@@ -115,7 +115,7 @@ const Gallery = () => {
                 <GALLERY_CARD
                     Title = "How To Die Alone"
                     Image = {project4}
-                    TitleSide = "projectTitleLeft"
+                    TitleSide = "projectTitleRight"
                     Image1 = {images.Placeholder}
                     Image2 = {images.Placeholder}
                     Image3 = {images.Placeholder}
@@ -139,7 +139,7 @@ const Gallery = () => {
                 <GALLERY_CARD
                     Title = "Orphan Black Echoes - S1"
                     Image = {project2}
-                    TitleSide = "projectTitleRight"
+                    TitleSide = "projectTitleLeft"
                     Image1 = {images.OrphanBlackEchoesS1BostonApartment_2}
                     Image2 = {images.OrphanBlackEchoesS1JulesCondo}
                     Image3 = {images.OrphanBlackEchoesS1JulesCondo_2}
