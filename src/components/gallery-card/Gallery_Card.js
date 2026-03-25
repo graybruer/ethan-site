@@ -1,23 +1,54 @@
-import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
-
+import * as React from "react";
+// import {useState, useEffect} from "react"
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
+import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
+import "yet-another-react-lightbox/plugins/thumbnails.css";
+import Counter from "yet-another-react-lightbox/plugins/counter";
+import "yet-another-react-lightbox/plugins/counter.css";
+import Zoom from "yet-another-react-lightbox/plugins/zoom";
 
 const GALLERY_CARD = (props) => {
 
+    const [open, setOpen] = React.useState(false);
+    const thumbnailsRef = React.useRef(null);
+
     return (
 
-        <motion.div className="project"
-                    initial={{opacity: 0}}
-                    animate={{opacity: 1, transition:{duration:1.5}}}
-                    exit={{opacity: 0}}
-                    transition={{ease: 'linear', duration: 0.5}}>
+        <section className="project" role="button" tabindex="0" onClick={() => setOpen(true)}>
 
-                <Link to ={props.LinkTo}>
+                <div className="card-container">
                 <img src={props.Image} alt={props.Title}></img>
                 <div className={props.TitleSide}>{props.Title}</div>
-                </Link>
-        </motion.div>
+                </div>
 
+                <Lightbox
+                    plugins={[Thumbnails, Zoom, Counter]}
+                    thumbnails={{ ref: thumbnailsRef, showToggle: true }}
+                    open={open}
+                    close={() => setOpen(false)}
+                    on={{
+                    click: () => {
+                        (thumbnailsRef.current?.visible
+                        ? thumbnailsRef.current?.hide
+                        : thumbnailsRef.current?.show)?.();
+                    },
+                    }}
+                    slides={[
+                        { src: props.Image1 },
+                        { src: props.Image2 },
+                        { src: props.Image3 },
+                        { src: props.Image4 },
+                        { src: props.Image5 },
+                        { src: props.Image6 },
+                        { src: props.Image7 },
+                        { src: props.Image8 },
+                        { src: props.Image9 },
+                        { src: props.Image10 },
+                        { src: props.Image11 },
+                    ]}
+                />
+        </section>
     );
 };
 

@@ -1,8 +1,8 @@
 import './Footer.css'
 import './Footer-Breakpoints.css'
 import { useLocation, NavLink } from 'react-router-dom';
-import imdb from '../../assets/imdb_logo.png'
-import dgc from '../../assets/DGC-Logo-White-BlackBG-small.webp'
+import imdb from '../../assets/Logos/imdb_logo.png'
+import dgc from '../../assets/Logos/DGC-Logo-White-BlackBG-small.webp'
 
 const Footer = () => {
 

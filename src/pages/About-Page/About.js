@@ -1,6 +1,6 @@
 import './About.css'
 import './About-Breakpoints.css'
-import Ethan from '../../assets/IMG_7270_smaller.jpeg';
+import Ethan from '../../assets/MiscImages/EthanHeadshot_smaller.jpeg';
 import { motion } from 'framer-motion';
 
 const About = () => {

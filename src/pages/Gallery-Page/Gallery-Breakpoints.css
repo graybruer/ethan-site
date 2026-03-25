@@ -13,10 +13,10 @@
     .project {
     max-height: 10rem;
     }
-    .project > a {
+    .project > .card-container {
     max-height: 10rem;
     }  
-    .project > a > img {
+    .project > .card-container > img {
     height: 10rem;
     }
     .GalleryContent {

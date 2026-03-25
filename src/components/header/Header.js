@@ -1,6 +1,6 @@
 import './Header.css'
 import './Header-Breakpoints.css'
-import logo from '../../assets/Ethaniel-Snow-Logo-white-cropped.png';
+import logo from '../../assets/Logos/Ethaniel-Snow-Logo-white-cropped.png';
 import { NavLink, Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
