@@ -113,23 +113,6 @@ const Gallery = () => {
                 />
 
                 <GALLERY_CARD
-                    Title = "Common Ground"
-                    Image = {project5}
-                    TitleSide = "projectTitleRight"
-                    Image1 = {images.Placeholder}
-                    Image2 = {images.Placeholder}
-                    Image3 = {images.Placeholder}
-                    Image4 = {images.Placeholder}
-                    Image5 = {images.Placeholder}
-                    Image6 = {images.Placeholder}
-                    Image7 = {images.Placeholder}
-                    Image8 = {images.Placeholder}
-                    Image9 = {images.Placeholder}
-                    Image10 = {images.Placeholder}
-                    Image11 = {images.Placeholder}
-                />
-
-                <GALLERY_CARD
                     Title = "How To Die Alone"
                     Image = {project4}
                     TitleSide = "projectTitleLeft"
