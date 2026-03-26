@@ -4,11 +4,8 @@
 
 
 @media (width <= 760px) {
-    .projectTitleRight {
-        font-size: 1.5rem;
-    }
-    .projectTitleLeft {
-        font-size: 1.5rem;
+    .GalleryContent * .card-title {
+    font-size: 1.66rem;
     }
     .project {
     max-height: 10rem;

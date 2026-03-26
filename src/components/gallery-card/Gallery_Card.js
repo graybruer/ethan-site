@@ -18,8 +18,8 @@ const GALLERY_CARD = (props) => {
         <section className="project" role="button" tabindex="0" onClick={() => setOpen(true)}>
 
                 <div className="card-container">
-                <img src={props.Image} alt={props.Title}></img>
-                <div className={props.TitleSide}>{props.Title}</div>
+                <img src={props.CardImage} alt={props.Title}></img>
+                <div className="card-title">{props.Title}</div>
                 </div>
 
                 <Lightbox

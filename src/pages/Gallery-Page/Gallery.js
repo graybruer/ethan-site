@@ -2,9 +2,7 @@ import './Gallery.css'
 import './Gallery-Breakpoints.css'
 import { motion } from 'framer-motion';
 import project7 from '../../assets/MiscImages/placeholder.png'
-import project5 from '../../assets/MiscImages/placeholder.png'
 import project4 from '../../assets/Ethan Snow Portfolio Images/Ethaniel_Snow_Portfolio_Image-02.png'
-import project2 from '../../assets/Ethan Snow Portfolio Images/Ethaniel_Snow_Portfolio_Image-19.png'
 import GALLERY_CARD from '../../components/gallery-card/Gallery_Card';
 import placeholder from '../../assets/MiscImages/placeholder.png'
 
@@ -32,8 +30,7 @@ const Gallery = () => {
 
                 <GALLERY_CARD
                     Title = "Brilliant Minds - Season 2"
-                    Image = {images.BrilliantMindsS2BoilerRoom_Plan}
-                    TitleSide = "projectTitleLeft"
+                    CardImage = {images.BrilliantMindsS2BoilerRoom_Plan}
                     Image1 = {images.BrilliantMindsS2BoilerRoom_Plan}
                     Image2 = {images.BrilliantMindsS2HyperbaricChamber_01}
                     Image3 = {images.BrilliantMindsS2HyperbaricChamber_PipeElevation}
@@ -47,8 +44,7 @@ const Gallery = () => {
 
                 <GALLERY_CARD
                     Title = "Sterling Point - Season 1"
-                    Image = {project7}
-                    TitleSide = "projectTitleRight"
+                    CardImage = {project7}
                     Image1 = {images.Placeholder}
                     Image2 = {images.Placeholder}
                     Image3 = {images.Placeholder}
@@ -64,8 +60,7 @@ const Gallery = () => {
                 
                 <GALLERY_CARD
                     Title = "Relationship Goals"
-                    Image = {images.RelationshipGoalsRGLS_0139_1TVStudioPodium_FloorPlan_ES_Revised_20250317webp}
-                    TitleSide = "projectTitleLeft"
+                    CardImage = {images.RelationshipGoalsRGLS_0139_1TVStudioPodium_FloorPlan_ES_Revised_20250317webp}
                     Image1 = {images.RelationshipGoalsRGLS_0139_1TVStudioPodium_FloorPlan_ES_Revised_20250317webp}
                     Image2 = {images.RelationshipGoalsRGLS_0139_3TVStudioPodium_WallCSections_ES_Issued_20250324webp}
                     Image3 = {images.RelationshipGoalsRGLS_0139_4TVStudioPodium_CeilingVolumeDetails_ES_Issued_20250306webp}
@@ -81,8 +76,7 @@ const Gallery = () => {
 
                 <GALLERY_CARD
                     Title = "Kiss of Death"
-                    Image = {images.KissofDeath802_300_EXTwebp}
-                    TitleSide = "projectTitleRight"
+                    CardImage = {images.KissofDeath802_300_EXTwebp}
                     Image1 = {images.KissofDeath802_300_EXTwebp}
                     Image2 = {images.KissofDeath802_301_EXTAndTRAILHEADBRIDGE_BRIDGESCAFFOLDDETAILS_V1_ISSUED_ES_OCT15webp}
                     Image3 = {images.KissofDeathBridgePerspective_OCT112024}
@@ -94,8 +88,7 @@ const Gallery = () => {
 
                 <GALLERY_CARD
                     Title = "Ginny and Georgia"
-                    Image = {images.GinnyAndGeorgiaS3CityCouncilMeeting_00}
-                    TitleSide = "projectTitleLeft"
+                    CardImage = {images.GinnyAndGeorgiaS3CityCouncilMeeting_00}
                     Image1 = {images.GinnyAndGeorgiaS3CityCouncilMeeting_00}
                     Image2 = {images.GinnyAndGeorgiaS3CityCouncilMeeting_01}
                     Image3 = {images.GinnyAndGeorgiaS3CityCouncilMeeting_03}
@@ -114,19 +107,22 @@ const Gallery = () => {
 
                 <GALLERY_CARD
                     Title = "How To Die Alone"
-                    Image = {project4}
-                    TitleSide = "projectTitleRight"
-                    Image1 = {images.Placeholder}
-                    Image2 = {images.Placeholder}
-                    Image3 = {images.Placeholder}
-                    Image4 = {images.Placeholder}
-                    Image5 = {images.Placeholder}
-                    Image6 = {images.Placeholder}
-                    Image7 = {images.Placeholder}
-                    Image8 = {images.Placeholder}
-                    Image9 = {images.Placeholder}
-                    Image10 = {images.Placeholder}
-                    Image11 = {images.Placeholder}
+                    CardImage = {images.HowToDieAloneEthaniel_Snow_Portfolio_Image02}
+                    Image1 = {images.HowToDieAloneEthaniel_Snow_Portfolio_Image03}
+                    Image2 = {images.HowToDieAloneEthaniel_Snow_Portfolio_Image04}
+                    Image3 = {images.HowToDieAloneEthaniel_Snow_Portfolio_Image05}
+                    Image4 = {images.HowToDieAloneEthaniel_Snow_Portfolio_Image06}
+                    Image5 = {images.HowToDieAloneEthaniel_Snow_Portfolio_Image07}
+                    Image6 = {images.HowToDieAloneEthaniel_Snow_Portfolio_Image08}
+                    Image7 = {images.HowToDieAloneEthaniel_Snow_Portfolio_Image09}
+                    Image8 = {images.HowToDieAloneEthaniel_Snow_Portfolio_Image10}
+                    Image9 = {images.HowToDieAloneEthaniel_Snow_Portfolio_Image11}
+                    Image10 = {images.HowToDieAloneEthaniel_Snow_Portfolio_Image12}
+                    Image11 = {images.HowToDieAloneEthaniel_Snow_Portfolio_Image13}
+                    Image12 = {images.HowToDieAloneEthaniel_Snow_Portfolio_Image14}
+                    Image13 = {images.HowToDieAloneEthaniel_Snow_Portfolio_Image15}
+                    Image14 = {images.HowToDieAloneEthaniel_Snow_Portfolio_Image16}
+                    Image15 = {images.HowToDieAloneEthaniel_Snow_Portfolio_Image17}
                 />
 
                 {/* Removed due to lack of content */}
@@ -138,19 +134,19 @@ const Gallery = () => {
 
                 <GALLERY_CARD
                     Title = "Orphan Black Echoes - S1"
-                    Image = {project2}
-                    TitleSide = "projectTitleLeft"
-                    Image1 = {images.OrphanBlackEchoesS1BostonApartment_2}
-                    Image2 = {images.OrphanBlackEchoesS1JulesCondo}
-                    Image3 = {images.OrphanBlackEchoesS1JulesCondo_2}
-                    Image4 = {images.OrphanBlackEchoesS1PaperCave_4}
-                    Image5 = {images.OrphanBlackEchoesS1Playground}
-                    Image6 = {images.OrphanBlackEchoesS1QuonsetHut_2}
-                    Image7 = {images.OrphanBlackEchoesS1Tina_sHouse}
-                    Image8 = {images.OrphanBlackEchoesS1UndergroundEntrance}
-                    Image9 = {placeholder}
+                    CardImage = {images.OrphanBlackEchoesS1Ethaniel_Snow_Portfolio_Image19}
+                    Image1 = {images.OrphanBlackEchoesS1Ethaniel_Snow_Portfolio_Image19}
+                    Image2 = {images.OrphanBlackEchoesS1BostonApartment_2}
+                    Image3 = {images.OrphanBlackEchoesS1JulesCondo}
+                    Image4 = {images.OrphanBlackEchoesS1JulesCondo_2}
+                    Image5 = {images.OrphanBlackEchoesS1PaperCave_4}
+                    Image6 = {images.OrphanBlackEchoesS1Playground}
+                    Image7 = {images.OrphanBlackEchoesS1QuonsetHut_2}
+                    Image8 = {images.OrphanBlackEchoesS1Tina_sHouse}
+                    Image9 = {images.OrphanBlackEchoesS1UndergroundEntrance}
                     Image10 = {placeholder}
                     Image11 = {placeholder}
+                    Image12 = {placeholder}
                 />
 
                 {/* Removed due to lack of content */}
