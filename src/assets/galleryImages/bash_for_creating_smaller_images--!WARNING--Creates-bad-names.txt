@@ -1,0 +1,3 @@
+!!WARNING this will fuck up non .jpg filenames
+
+for file in *.*; do   convert "$file" -resize 50% "${file%.jpg}_resized.jpg"; done
