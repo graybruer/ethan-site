@@ -27,7 +27,7 @@ const Gallery = () => {
             <article className='GalleryContent'>
 
                 <GALLERY_CARD
-                    Title = "Comercial Work"
+                    Title = "Commercial Work"
                     Date = ""
                     Position = ""
                     CardImage = {placeholder}
@@ -62,10 +62,10 @@ const Gallery = () => {
                     Image5b = {images.BrilliantMindsS2HyperbaricChamber_Plan_resized}
                     Image5c = {images.BrilliantMindsS2HyperbaricChamber_Plan_resized_resized}
                     Image5d = {images.BrilliantMindsS2HyperbaricChamber_Plan_resized_resized_resized}
-                    Image6 = {images.BrilliantMindsS2HyperbaricChamber_01}
-                    Image6b = {images.BrilliantMindsS2HyperbaricChamber_01_resized}
-                    Image6c = {images.BrilliantMindsS2HyperbaricChamber_01_resized_resized}
-                    Image6d = {images.BrilliantMindsS2HyperbaricChamber_01_resized_resized_resized}
+                    Image6 = {images.BrilliantMindsS2HyperbaricChamber_07}
+                    Image6b = {images.BrilliantMindsS2HyperbaricChamber_07_resized}
+                    Image6c = {images.BrilliantMindsS2HyperbaricChamber_07_resized_resized}
+                    Image6d = {images.BrilliantMindsS2HyperbaricChamber_07_resized_resized_resized}
                     Image7 = {images.BrilliantMindsS2HyperbaricChamber_SectionsAndElevations}
                     Image7b = {images.BrilliantMindsS2HyperbaricChamber_SectionsAndElevations_resized}
                     Image7c = {images.BrilliantMindsS2HyperbaricChamber_SectionsAndElevations_resized_resized}
