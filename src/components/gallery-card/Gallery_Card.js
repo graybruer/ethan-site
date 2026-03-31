@@ -17,7 +17,7 @@ const GALLERY_CARD = (props) => {
 
     // TO DO!!! Still trying to space these properly
     const projectInfo = "";
-    const formattedProjectInfo = projectInfo.concat(props.Title,"   ",props.Date,"   ",props.Position);
+    const formattedProjectInfo = projectInfo.concat(props.Title,"\u000a",props.Date,"\u000a",props.Position);
     const altText = "Ethaniel Snow Portfolio Image for " + props.Title;
 
     // This is unnecessarily verbose, but it doesn't need to be concise and I think it's more pleasently readable this way
