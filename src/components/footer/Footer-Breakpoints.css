@@ -1,13 +1,22 @@
-@media (width <= 550px) {
+@media (width <= 760px) {
 
     .footerItemYes {
         font-size: 0.8rem;
-        margin-top: 0.8rem;
+        margin-top: 1.25rem;
     }
 
     .logoLink {
         height: 1.4rem;
 
+    }
+
+    .footerYes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerYes :last-child {
+        margin-bottom: 0.5rem ;
     }
 
 }

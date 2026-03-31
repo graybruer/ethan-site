@@ -6,7 +6,7 @@ import dgc from '../../assets/Logos/DGC-Logo-White-BlackBG-small.webp'
 
 const Footer = () => {
 
-    // This should probably be useing useState or something but that was causing issues and this seems to work fine
+    // This should possibly be useing useState or something but that was causing issues and this seems to work fine
     let display = 'Yes';
 
     let location = useLocation();
