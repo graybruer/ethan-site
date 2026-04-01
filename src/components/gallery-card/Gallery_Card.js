@@ -6,14 +6,17 @@ import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import Counter from "yet-another-react-lightbox/plugins/counter";
 import "yet-another-react-lightbox/plugins/counter.css";
-import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import Captions from "yet-another-react-lightbox/plugins/captions";
 import "yet-another-react-lightbox/plugins/captions.css";
+import Zoom from "yet-another-react-lightbox/plugins/zoom";
+import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
+
 
 const GALLERY_CARD = (props) => {
 
     const [open, setOpen] = React.useState(false);
     const thumbnailsRef = React.useRef(null);
+    const zoomRef = React.useRef(null);
 
     // TO DO!!! Still trying to space these properly
     const projectInfo = "";
@@ -263,17 +266,13 @@ const GALLERY_CARD = (props) => {
                 </div>
 
                 <Lightbox
-                    plugins={[Thumbnails, Zoom, Counter, Captions]}
-                    thumbnails={{ ref: thumbnailsRef, showToggle: true }}
-                    captions={{descriptionTextAlign: "center"}}
+                    plugins={[Thumbnails, Counter, Captions, Zoom, Fullscreen]}
+                    thumbnails={{ ref: thumbnailsRef, showToggle: false }}
+                    captions={{ descriptionTextAlign: "center" }}
+                    zoom={{ ref: zoomRef, maxZoomPixelRatio: 5 }}
                     open={open}
                     close={() => setOpen(false)}
                     on={{
-                    click: () => {
-                        (thumbnailsRef.current?.visible
-                        ? thumbnailsRef.current?.hide
-                        : thumbnailsRef.current?.show)?.();
-                    },
                     }}
                     slides={arrayOfSlides}
                 />

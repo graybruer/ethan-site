@@ -16,7 +16,7 @@
     .filmwork {
         /* outline: 1px solid aqua; */
         display: grid;
-        /* grid-template-columns: 1fr 1fr; */
+        grid-template-columns: 1fr 1fr;
         justify-items: center;
         width: 100%;
         margin-bottom: 2rem;
@@ -78,10 +78,17 @@
         /* outline: 1px solid green; */
     }
 
-    .cvSection > div {
+    .filmworkText {
         /* outline: 1px solid aqua; */
         display: grid;
         grid-template-columns: 1fr;
+        /* gap: 2rem; */
+    }
+
+    .filmwork {
+        /* outline: 1px solid aqua; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         /* gap: 2rem; */
     }
 
@@ -123,6 +130,17 @@
 
     .generalSkillsList {
         line-height: 2.5rem;
+    }
+
+}
+
+@media (width <= 400px) {
+
+        .filmwork {
+        /* outline: 1px solid aqua; */
+        display: grid;
+        grid-template-columns: 1fr;
+        /* gap: 2rem; */
     }
 
 }
