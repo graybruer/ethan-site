@@ -11,7 +11,7 @@ const Gallery = () => {
     const images = imageImporter();
 
     // debugging:
-    // console.log(images);
+    console.log(images);
     // console.log("is this thing on?");
 
 
@@ -96,22 +96,22 @@ const Gallery = () => {
                     Date = "2025"
                     Position = "1st Assistant Art Director"
                     CardImage = {images.RelationshipGoalsRGLS_0139_100_Int_TVStudioPodium_FloorPlan_ES_Revised_20250317_resized_resized}
-                    Image1 = {images.RelationshipGoalsRGLS_0139_1TVStudioPodium_FloorPlan_ES_Revised_20250317webp}
-                    Image1b = {images.RelationshipGoalsRGLS_0139_1TVStudioPodium_FloorPlan_ES_Revised_20250317webp_resized}
-                    Image1c = {images.RelationshipGoalsRGLS_0139_1TVStudioPodium_FloorPlan_ES_Revised_20250317webp_resized_resized}
-                    Image1d = {images.RelationshipGoalsRGLS_0139_1TVStudioPodium_FloorPlan_ES_Revised_20250317webp_resized_resized_resized}
-                    Image2 = {images.RelationshipGoalsRGLS_0139_3TVStudioPodium_WallCSections_ES_Issued_20250324webp}
-                    Image2b = {images.RelationshipGoalsRGLS_0139_3TVStudioPodium_WallCSections_ES_Issued_20250324webp_resized}
-                    Image2c = {images.RelationshipGoalsRGLS_0139_3TVStudioPodium_WallCSections_ES_Issued_20250324webp_resized_resized}
-                    Image2d = {images.RelationshipGoalsRGLS_0139_3TVStudioPodium_WallCSections_ES_Issued_20250324webp_resized_resized_resized}
-                    Image3 = {images.RelationshipGoalsRGLS_0139_4TVStudioPodium_CeilingVolumeDetails_ES_Issued_20250306webp}
-                    Image3b = {images.RelationshipGoalsRGLS_0139_4TVStudioPodium_CeilingVolumeDetails_ES_Issued_20250306webp_resized}
-                    Image3c = {images.RelationshipGoalsRGLS_0139_4TVStudioPodium_CeilingVolumeDetails_ES_Issued_20250306webp_resized_resized}
-                    Image3d = {images.RelationshipGoalsRGLS_0139_4TVStudioPodium_CeilingVolumeDetails_ES_Issued_20250306webp_resized_resized_resized}
-                    Image4 = {images.RelationshipGoalsRGLS_0139_4TVStudioPodium_DeskPlatformDetails_ES_Issued_20250306webp}
-                    Image4b = {images.RelationshipGoalsRGLS_0139_4TVStudioPodium_DeskPlatformDetails_ES_Issued_20250306webp_resized}
-                    Image4c = {images.RelationshipGoalsRGLS_0139_4TVStudioPodium_DeskPlatformDetails_ES_Issued_20250306webp_resized_resized}
-                    Image4d = {images.RelationshipGoalsRGLS_0139_4TVStudioPodium_DeskPlatformDetails_ES_Issued_20250306webp_resized_resized_resized}
+                    Image1 = {images.RelationshipGoalsRGLS_0139_100_Int_TVStudioPodium_FloorPlan_ES_Revised_20250317}
+                    Image1b = {images.RelationshipGoalsRGLS_0139_100_Int_1TVStudioPodium_FloorPlan_ES_Revised_20250317_resized}
+                    Image1c = {images.RelationshipGoalsRGLS_0139_100_Int_1TVStudioPodium_FloorPlan_ES_Revised_20250317_resized_resized}
+                    Image1d = {images.RelationshipGoalsRGLS_0139_100_Int_1TVStudioPodium_FloorPlan_ES_Revised_20250317_resized_resized_resized}
+                    Image2 = {images.RelationshipGoalsRGLS_0139_302_Int_TVStudioPodium_WallCSections_ES_Issued_20250324}
+                    Image2b = {images.RelationshipGoalsRGLS_0139_302_Int_3TVStudioPodium_WallCSections_ES_Issued_20250324_resized}
+                    Image2c = {images.RelationshipGoalsRGLS_0139_302_Int_3TVStudioPodium_WallCSections_ES_Issued_20250324_resized_resized}
+                    Image2d = {images.RelationshipGoalsRGLS_0139_302_Int_3TVStudioPodium_WallCSections_ES_Issued_20250324_resized_resized_resized}
+                    Image3 = {images.RelationshipGoalsRGLS_0139_403_Int_TVStudioPodium_CeilingVolumeDetails_ES_Issued_20250306}
+                    Image3b = {images.RelationshipGoalsRGLS_0139_403_Int_TVStudioPodium_CeilingVolumeDetails_ES_Issued_20250306_resized}
+                    Image3c = {images.RelationshipGoalsRGLS_0139_403_Int_TVStudioPodium_CeilingVolumeDetails_ES_Issued_20250306_resized_resized}
+                    Image3d = {images.RelationshipGoalsRGLS_0139_403_Int_TVStudioPodium_CeilingVolumeDetails_ES_Issued_20250306_resized_resized_resized}
+                    Image4 = {images.RelationshipGoalsRGLS_0139_401_Int_TVStudioPodium_DeskPlatformDetails_ES_Issued_20250306}
+                    Image4b = {images.RelationshipGoalsRGLS_0139_401_Int_TVStudioPodium_DeskPlatformDetails_ES_Issued_20250306_resized}
+                    Image4c = {images.RelationshipGoalsRGLS_0139_401_Int_TVStudioPodium_DeskPlatformDetails_ES_Issued_20250306_resized_resized}
+                    Image4d = {images.RelationshipGoalsRGLS_0139_401_Int_TVStudioPodium_DeskPlatformDetails_ES_Issued_20250306_resized_resized_resized}
                     Image5 = {images.RelationshipGoalsRGLS_CentreOffside}
                     Image5b = {images.RelationshipGoalsRGLS_CentreOffside_resized}
                     Image5c = {images.RelationshipGoalsRGLS_CentreOffside_resized_resized}

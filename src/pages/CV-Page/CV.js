@@ -33,7 +33,7 @@ const CV = () => {
                                 <li>Set Prep & Opening</li>
                                 <li>Script Breakdowns</li>
                                 <li>Tech Pack Preparation</li>
-                                <li>Managing Production Calendar & Cashet</li>
+                                <li>Managing Production<br /> Calendar & Cashet</li>
                             </ul>
                         </div>
                     </div>

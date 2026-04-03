@@ -36,6 +36,7 @@ h3 {
     align-items: center;
     flex: 0 0 100%;
     min-width: 100%;
+    outline: 1px dashed red;
 }
 
 .cvSection>h1 {
@@ -62,31 +63,24 @@ h3 {
 }
 
 .rlHolder {
-    display: flex;
-    width: 100%;
-    /* max-height: 12rem; */
-    padding: 1rem 0 1rem 0;
-    justify-content: center;
-    /* overflow:hidden; */
+    justify-items: center;
 }
 
 .responsibilitiesList {
-    display: grid;
-    grid-auto-flow: column;
-    grid-template-rows: repeat(4, 2.5rem);
-    grid-template-columns: repeat(3, 32ch);
-    /* ^This is hacky as hell but I'm fed up trying to make a more elegant solution work to automatically allow for different width columns. Doing this manually at least looks good for now even if it will be janky to add to.  */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: clamp(12rem, 12rem, 100rem);
     text-align: left;
     margin-bottom: 3rem;
     /* outline: 1px solid teal; */
-
 }
 
 .responsibilitiesList>li {
     list-style-position: inside;
     text-indent: -1.35rem;
-    margin-left: 2.55rem;
-    padding: 0 0 0 3rem;
+    /* margin-left: 2.55rem; */
+    padding: 0 3rem 0 3rem;
     /* min-height: 6rem; */
     /* outline: 1px solid pink; */
 }
@@ -112,7 +106,8 @@ h3 {
     justify-items: center;
     text-wrap: balance;
     width: 100%;
-    /* outline: 1px solid orange; */
+    max-width: 64rem;
+    outline: 1px solid orange;
 }
 
 .skills h1 {
@@ -121,9 +116,10 @@ h3 {
 
 .skills>.list {
     /* margin: 1rem 2.5rem 1rem 2.5rem; */
-    width: 40ch;
+    width: 38ch;
     margin-bottom: 2.5rem;
-    /* outline: 1px solid red; */
+    outline: 1px dotted purple;
+    text-wrap: balanced;
 }
 
 .list h3 {

@@ -20,24 +20,25 @@
     gap: 2rem;
     /* background-color: green; */
     /* outline: 1px solid green; */
+    /* height: 50vh; */
 }
 
 .aboutContent article {
+    max-height: 26rem;
     max-width: 35ch;
-    /* outline: 1px solid green; */
+    /* outline: 1px solid red; */
+}
+
+.aboutContent article p:first-child {
+    margin-top: 0;
 }
 
 .Portrait {
-    /* outline: 1px solid black; */
     /* max-width: 35ch; */
     max-height: 26rem;
     width: 100%;
     object-fit: cover;
     grid-column: 2;
     justify-self: end;
-}
-
-.aboutContent > p {
-    max-width: 17rem;
-    justify-self: start;
+    /* outline: 1px solid fuchsia; */
 }
