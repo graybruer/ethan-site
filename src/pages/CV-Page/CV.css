@@ -36,7 +36,7 @@ h3 {
     align-items: center;
     flex: 0 0 100%;
     min-width: 100%;
-    outline: 1px dashed red;
+    /* outline: 1px dashed red; */
 }
 
 .cvSection>h1 {
@@ -107,7 +107,7 @@ h3 {
     text-wrap: balance;
     width: 100%;
     max-width: 64rem;
-    outline: 1px solid orange;
+    /* outline: 1px solid orange; */
 }
 
 .skills h1 {
@@ -118,8 +118,8 @@ h3 {
     /* margin: 1rem 2.5rem 1rem 2.5rem; */
     width: 38ch;
     margin-bottom: 2.5rem;
-    outline: 1px dotted purple;
     text-wrap: balanced;
+    /* outline: 1px dotted purple; */
 }
 
 .list h3 {
