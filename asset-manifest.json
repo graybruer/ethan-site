@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.75e87eb8.css",
-    "main.js": "/static/js/main.3ae8c5e4.js",
+    "main.css": "/static/css/main.23126d4c.css",
+    "main.js": "/static/js/main.3f3a1ea9.js",
     "static/js/453.1cde7468.chunk.js": "/static/js/453.1cde7468.chunk.js",
     "static/media/Ethaniel_Snow_Portfolio_Image-17.png": "/static/media/Ethaniel_Snow_Portfolio_Image-17.ef7092492d8dffb34141.png",
     "static/media/Ethaniel_Snow_Portfolio_Image-12.png": "/static/media/Ethaniel_Snow_Portfolio_Image-12.13fa5e2bcda5571455d0.png",
@@ -363,12 +363,12 @@
     "static/media/Bridge Perspective_OCT 11, 2024_resized_resized.jpg": "/static/media/Bridge Perspective_OCT 11, 2024_resized_resized.460422bd2a051b89e1a8.jpg",
     "static/media/DGC-Logo-White-BlackBG-small.webp": "/static/media/DGC-Logo-White-BlackBG-small.b2122fa576bd8655b10a.webp",
     "index.html": "/index.html",
-    "main.75e87eb8.css.map": "/static/css/main.75e87eb8.css.map",
-    "main.3ae8c5e4.js.map": "/static/js/main.3ae8c5e4.js.map",
+    "main.23126d4c.css.map": "/static/css/main.23126d4c.css.map",
+    "main.3f3a1ea9.js.map": "/static/js/main.3f3a1ea9.js.map",
     "453.1cde7468.chunk.js.map": "/static/js/453.1cde7468.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.75e87eb8.css",
-    "static/js/main.3ae8c5e4.js"
+    "static/css/main.23126d4c.css",
+    "static/js/main.3f3a1ea9.js"
   ]
 }
