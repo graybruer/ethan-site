@@ -250,15 +250,38 @@ const GALLERY_CARD = (props) => {
                     ],
             },
     ];
+
     const arrayOfSlides = [];
     for (let count = 1; count <= numberOfSlides; count++) {
             arrayOfSlides.push(arrayOfPotentialSlides[count-1]);
         };
+        // console.log(arrayOfSlides);
+    
+    // const arrayOfSlides = [];
+    
+    // for (let count = 1; count <= numberOfSlides; count++) {
+    //     // console.log(count);
+    //     let slide = `${"props.Image"+count}`;
+    //     // console.log(slide);
+    //     const potentialSlide = {
+    //         src: slide,
+    //         description: formattedProjectInfo,
+    //         alt: altText,
+    //         srcSet: [
+    //             {src: slide+'d'},
+    //             {src: slide+'c'},
+    //             {src: slide+'b'},
+    //             {src: slide},
+    //         ],
+    //     };
+    //     // console.log(potentialSlide);
+    //     arrayOfSlides.push(potentialSlide);
+    // };
     // console.log(arrayOfSlides);
 
     return (
 
-        <section className="project" role="button" tabindex="0" onClick={() => setOpen(true)}>
+        <section className="project" role="button" tabIndex="0" onClick={() => setOpen(true)}>
 
                 <div className="card-container">
                 <img src={props.CardImage} alt={props.Title}></img>

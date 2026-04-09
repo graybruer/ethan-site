@@ -11,8 +11,8 @@ const Gallery = () => {
     const images = imageImporter();
 
     // debugging:
-    console.log(images);
     // console.log("is this thing on?");
+    console.log(images); 
 
 
     return (
@@ -147,14 +147,14 @@ const Gallery = () => {
                     Date = "2024"
                     Position = "1st Assistant Art Director"
                     CardImage = {images.KissofDeath802_300_EXT_WOODSAndTRAILHEADBRIDGE_STUNTBRIDGEDETAILS_V1_ISSUED_ES_OCT15_resized_resized}
-                    Image1 = {images.KissofDeath802_300_EXTwebp}
-                    Image1b = {images.KissofDeath802_300_EXTwebp_resized}
-                    Image1c = {images.KissofDeath802_300_EXTwebp_resized_resized}
-                    Image1d = {images.KissofDeath802_300_EXTwebp_resized_resized_resized}
-                    Image2 = {images.KissofDeath802_301_EXTAndTRAILHEADBRIDGE_BRIDGESCAFFOLDDETAILS_V1_ISSUED_ES_OCT15webp}
-                    Image2b = {images.KissofDeath802_301_EXTAndTRAILHEADBRIDGE_BRIDGESCAFFOLDDETAILS_V1_ISSUED_ES_OCT15webp_resized}
-                    Image2c = {images.KissofDeath802_301_EXTAndTRAILHEADBRIDGE_BRIDGESCAFFOLDDETAILS_V1_ISSUED_ES_OCT15webp_resized_resized}
-                    Image2d = {images.KissofDeath802_301_EXTAndTRAILHEADBRIDGE_BRIDGESCAFFOLDDETAILS_V1_ISSUED_ES_OCT15webp_resized_resized_resized}
+                    Image1 = {images.KissofDeath802_300_EXT_WOODSAndTRAILHEADBRIDGE_STUNTBRIDGEDETAILS_V1_ISSUED_ES_OCT15}
+                    Image1b = {images.KissofDeath802_300_EXT_WOODSAndTRAILHEADBRIDGE_STUNTBRIDGEDETAILS_V1_ISSUED_ES_OCT15_resized}
+                    Image1c = {images.KissofDeath802_300_EXT_WOODSAndTRAILHEADBRIDGE_STUNTBRIDGEDETAILS_V1_ISSUED_ES_OCT15_resized_resized}
+                    Image1d = {images.KissofDeath802_300_EXT_WOODSAndTRAILHEADBRIDGE_STUNTBRIDGEDETAILS_V1_ISSUED_ES_OCT15_resized_resized_resized}
+                    Image2 = {images.KissofDeath802_301_EXT_WOODSAndTRAILHEADBRIDGE_BRIDGESCAFFOLDDETAILS_V1_ISSUED_ES_OCT15}
+                    Image2b = {images.KissofDeath802_301_EXT_WOODSAndTRAILHEADBRIDGE_BRIDGESCAFFOLDDETAILS_V1_ISSUED_ES_OCT15_resized}
+                    Image2c = {images.KissofDeath802_301_EXT_WOODSAndTRAILHEADBRIDGE_BRIDGESCAFFOLDDETAILS_V1_ISSUED_ES_OCT15_resized_resized}
+                    Image2d = {images.KissofDeath802_301_EXT_WOODSAndTRAILHEADBRIDGE_BRIDGESCAFFOLDDETAILS_V1_ISSUED_ES_OCT15_resized_resized_resized}
                     Image3 = {images.KissofDeathBridgePerspective_OCT112024}
                     Image3b = {images.KissofDeathBridgePerspective_OCT112024_resized}
                     Image3c = {images.KissofDeathBridgePerspective_OCT112024_resized_resized}
