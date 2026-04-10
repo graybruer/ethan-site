@@ -32,3 +32,9 @@
         /* align-self: start; */
     }
 }
+
+@media (width <= 400px) {
+    .aboutContent article {
+        margin: 0 1.5rem 0 1.5rem;
+    }
+}

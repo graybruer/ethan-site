@@ -25,12 +25,14 @@
 
 .aboutContent article {
     max-height: 26rem;
-    width: 22rem;
+    max-width: 22rem;
+    padding: 0;
     /* outline: 1px solid red; */
 }
 
 .aboutContent article p:first-child {
     margin-top: 0;
+    padding-top: 0;
 }
 
 .Portrait {
