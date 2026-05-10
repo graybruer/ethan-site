@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import GALLERY_CARD from '../../components/gallery-card/Gallery_Card';
 import COMMERCIAL_GALLERY_CARD from '../../components/gallery-card/Commercial_Gallery_Card';
 import imageImporter from "../../utils/imageImporter";
-import commercialWorkReel from "../../assets/galleryImages/Commercial Work/Commercial Reel.mp4";
+import commercialWorkReel from "../../assets/galleryImages/Commercial Work/Commercial Reel.webm";
 
 const Gallery = () => {
     
