@@ -1,5 +1,7 @@
 const imageImporter = (props) => {
 
+  //Based off of an example from StackOverflow
+
   // Create a context for images in the assets/images directory  
   // Parameters:  
   // - Directory path: '../assets/images' (relative to this file)  
@@ -11,7 +13,7 @@ const imageImporter = (props) => {
   const images = imageContext.keys().reduce((acc, key) => {
 
     // Extract filename (e.g., './apple.jpg' → 'apple')
-    // There has to be a more efficient way to do this...
+    // There has to be a way to do this all at once... 
     const removeSlashes = key.replace(/\//g, '');
     const removeDashes = removeSlashes.replace(/-/g, '');
     const removeComma = removeDashes.replace(/,/g, '');

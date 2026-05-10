@@ -91,6 +91,39 @@
     /* outline: 2px dotted yellow; */
 }
 
+.project > .card-container > video {
+    height: 19rem;
+    /* justify-self: center; */
+    /* max-height: 20rem; */
+    /* height: 100%; */
+    width: 100%;
+    object-fit: cover;
+    grid-row: 1;
+    grid-column: 1 / span 4;
+    transition: 0.5s;
+    overflow: hidden;
+    /* background-color: green; */
+    /* border: 2px dotted yellow; */
+}
+
+.projectDetails {
+    /* outline: 1px solid orange; */
+    /* border: 1px dashed red; */
+    /* background-color: aqua; */
+    color: #fff;
+    white-space: nowrap;
+    padding-top: 0.75rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+/* .project > .card-container > video source {
+    border: 1px dashed orange;
+} */
+
 .GalleryContent * .card-title {
     height: 100%;
     padding: 0 1.5rem 0 1.5rem;

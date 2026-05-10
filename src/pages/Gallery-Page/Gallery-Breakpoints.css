@@ -16,6 +16,9 @@
     .project > .card-container > img {
     height: 10rem;
     }
+    .project > .card-container > video {
+    height: 100%;
+    }
     .GalleryContent {
     gap: 1rem;
     }

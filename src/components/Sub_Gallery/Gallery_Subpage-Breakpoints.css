@@ -1,0 +1,25 @@
+
+
+@media (width <= 760px) {
+    .yarl__root {
+        aspect-ratio: 3 / 2.25 !important;
+    }
+}
+
+@media (width <= 620px) {
+    .yarl__root {
+        aspect-ratio: 3 / 2.75 !important;
+    }
+    .subGalleryContent {
+            margin: 1rem 0 3rem 0;
+    }
+    .backToGallery {
+        margin-bottom: 0.25rem;
+    }
+}
+
+@media (width <= 520px) {
+    .yarl__root {
+        aspect-ratio: 1 / 1 !important;
+    }
+}

@@ -23,7 +23,7 @@ const Header = () => {
 
     return (
 
-       <header  className={`header${size}`}>
+        <header  className={`header${size}`}>
             <Link to='/' className={`navLogoLink${size}`}>
                 <div className={`navLogoBox${size}`} id='navLogoBox'>
                     <img src={logo} alt="Ethaniel Snow Logo" id={`navLogo${size}`}></img>
@@ -55,7 +55,7 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
-       </header>
+        </header>
     );
 };
 

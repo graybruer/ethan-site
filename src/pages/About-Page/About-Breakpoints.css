@@ -12,8 +12,9 @@
     }
 
     .aboutContent article{
-        margin: 0 0 3rem 0;
+        margin: 0 0 2rem 0;
         max-width: 22rem;
+        max-height: 50rem;
     }
 
     .Portrait {
@@ -35,6 +36,6 @@
 
 @media (width <= 400px) {
     .aboutContent article {
-        margin: 0 1.5rem 0 1.5rem;
+        margin: 0 1.5rem 2rem 1.5rem;
     }
 }
