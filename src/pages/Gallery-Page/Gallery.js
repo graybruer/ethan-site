@@ -37,21 +37,21 @@ const Gallery = () => {
                     Title = "Brilliant Minds - Season 2"
                     Date = "2025"
                     Position = "1st Assistant Art Director"
-                    CardImage = {images.BrilliantMindsSeason2BoilerRoom_Plan_resized}
+                    CardImage = {images.BrilliantMindsSeason2HyperbaricChamber_07}
                 />
 
                 <GALLERY_CARD
                     Title = "Sterling Point - Season 1"
                     Date = "2025"
                     Position = "1st Assistant Art Director"
-                    CardImage = {images.SterlingPointSeason1A032_onasBedroom_FloorPlanRCP_V01_072225_ISSUED_ES_resized}
+                    CardImage = {images.SterlingPointSeason1S450_FloatingSauna}
                 />
                 
                 <GALLERY_CARD
                     Title = "Relationship Goals"
                     Date = "2025"
                     Position = "1st Assistant Art Director"
-                    CardImage = {images.RelationshipGoalsRGLS_0139_100_Int_TVStudioPodium_FloorPlan_ES_Revised_20250317_resized}
+                    CardImage = {images.RelationshipGoalsSet_01}
                 />
 
                 <GALLERY_CARD
@@ -65,7 +65,7 @@ const Gallery = () => {
                     Title = "Ginny and Georgia"
                     Date = "2025"
                     Position = "1st Assistant Art Director"
-                    CardImage = {images.GinnyandGeorgiaCityCouncilMeeting_00_resized}
+                    CardImage = {images.GinnyandGeorgiaPrisonFB_05}
                 />
 
                 <GALLERY_CARD
@@ -86,7 +86,7 @@ const Gallery = () => {
                     Title = "Orphan Black Echoes - Season 1"
                     Date = "2022"
                     Position = "2st Assistant Art Director"
-                    CardImage = {images.OrphanBlackEchoesSeason1Ethaniel_Snow_Portfolio_Image19_resized}
+                    CardImage = {images.OrphanBlackEchoesSeason1BostonApartment_2}
                 />
 
                 {/* Removed due to lack of content */}

@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import SubGalleryPageCommercial from '../../../components/Sub_Gallery/Sub_Gallery_Page_Commercial';
 
 
-const BMS2SubGallery = () => {
+const CommercialWorkSubGallery = () => {
 
     return (
         //  reference: https://www.framer.com/motion/component/
@@ -24,4 +24,4 @@ const BMS2SubGallery = () => {
     );
 };
 
-export default BMS2SubGallery;
+export default CommercialWorkSubGallery;

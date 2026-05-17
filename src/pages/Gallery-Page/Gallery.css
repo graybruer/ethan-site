@@ -65,6 +65,13 @@
         transform: scale(1.05);
         transition: 0.5s;
     }
+    &:hover > .card-container > video,
+    &:focus > .card-container > video,
+    &:active > .card-container > video
+    {
+        transform: scale(1.05);
+        transition: 0.5s;
+    }
 }
 
 .project > .card-container {
@@ -84,7 +91,7 @@
     /* height: 100%; */
     width: 100%;
     object-fit: cover;
-    object-position: 50% 7.5%;
+    object-position: 50% 50%;
     grid-row: 1;
     grid-column: 1 / span 4;
     transition: 0.5s;

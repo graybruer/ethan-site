@@ -131,7 +131,7 @@ const CV = () => {
                             <li>Work Well Under Pressure</li>
                             <li>Enjoy Fast Paced Environments</li>
                             <li>Great Interpersonal Skills</li>
-                            <li>10+ Years of Driving Experience, Downtown/Rural</li>
+                            <li>15+ Years of Driving Experience, Downtown/Rural</li>
                             <li>Work Well in a Team or Alone</li>
                             <li>Intrinsically Motivated</li>
                             <li>First Aid, CPR, and AED Training</li>

@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import imageImporter from '../../utils/imageImporter';
 import Lightbox from 'yet-another-react-lightbox';
 import { Thumbnails, Counter, Zoom, Fullscreen, Inline, Video, } from 'yet-another-react-lightbox/plugins';
 import "yet-another-react-lightbox/styles.css";
@@ -15,14 +16,17 @@ import commercial_work_video_poster from '../../assets/MiscImages/commercial_wor
 const SubGalleryPageCommercial = (props) => {
 
     // console.log("is this thing even on?");
+    const images = imageImporter();
+    const projectTitleNameShort = props.Title.replace(/- /g, '').replace(/\s/g, '');
+    // console.log(projectTitleNameShort);
+    const projectImages = Object.keys(images).filter(startingWith => startingWith.includes(projectTitleNameShort));
+    // console.log(projectImages);
 
     const altText = "Ethaniel Snow Portfolio Image for " + props.Title;
-    const projectImages = props.ProjectImages;
-    // console.log(projectImages); 
 
-    const numberOfSlides = (Object.keys(projectImages).length - 1);
+    // const numberOfSlides = (Object.keys(projectImages).length - 1);
 
-    const slides = [{
+    const arrayOfSlides = [{
         type: "video", 
         width: 1280, 
         height: 720, 
@@ -33,12 +37,22 @@ const SubGalleryPageCommercial = (props) => {
         },],
     },];
 
+    const numberOfSlides = (Object.keys(projectImages).length -1);
+
     for (let count = 0; count <= numberOfSlides; count++) {
-        let x = projectImages[`Image${count+1}`];
-        slides.push(
-            {src: x, alt: {altText},}
+        let x = projectImages[count];
+        arrayOfSlides.push(
+            {src: images[x], alt: {altText},}
         );
     }
+    console.log(arrayOfSlides);
+
+    // for (let count = 0; count <= numberOfSlides; count++) {
+    //     let x = projectImages[`Image${count+1}`];
+    //     slides.push(
+    //         {src: x, alt: {altText},}
+    //     );
+    // }
 
     // console.log(slides);
 
@@ -57,7 +71,7 @@ const SubGalleryPageCommercial = (props) => {
             </NavLink>
             <section className='subGalleryContent'>
             <Lightbox
-                slides={slides}
+                slides={arrayOfSlides}
                 plugins={[Inline, Thumbnails, Counter, Zoom, Fullscreen, Video]}
                 inline={{style: { width: "100%", maxWidth: "900px", aspectRatio: "3 / 2" },}}
                 thumbnails={{ showToggle: false }}
