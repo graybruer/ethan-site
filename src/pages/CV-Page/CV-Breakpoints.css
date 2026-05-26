@@ -14,7 +14,7 @@
     }
 
     .filmwork {
-        outline: 1px solid aqua;
+        /* outline: 1px solid aqua; */
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-items: center;
@@ -47,10 +47,6 @@
 
     .educationList2 {
     margin-top: 1rem;
-    }
-
-    .skills > .list {
-        /* width: 30ch; */
     }
 
 }
